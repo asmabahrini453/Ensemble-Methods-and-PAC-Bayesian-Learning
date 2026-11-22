@@ -40,6 +40,7 @@ Ordre des analyses (fonction main)
        tours), C (profondeur), D (taille de l'échantillon), E (stacking), F (bruit sur jeux réels).
     10. Écriture de results/part1_numbers.json.
 """
+
 import glob
 import json
 import os
@@ -58,7 +59,7 @@ TAB = os.path.join(RES, "tables")
 os.makedirs(FIG, exist_ok=True); os.makedirs(TAB, exist_ok=True)
 
 plt.rcParams.update({"font.family": "serif", "font.size": 8, "axes.spines.top": False, "axes.spines.right": False,
-                     "legend.frameon": False, "savefig.bbox": "tight", "figure.dpi": 130})
+                     "legend.frameon": False, "savefig.bbox": "tight", "savefig.dpi": 200, "figure.dpi": 130})
 LABEL = {"tree": "tree", "logreg": "log. reg.", "7nn": "7-NN", "bagging": "bagging", "adaboost_stumps": "AdaBoost (stumps)",
          "adaboost_depth3": "AdaBoost (depth 3)", "stacking": "stacking", "rf": "random forest", "gb": "grad. boosting",
          "hgb": "hist. grad. boosting"}
@@ -74,6 +75,7 @@ Q05 = {2: 1.960, 3: 2.343, 4: 2.569, 5: 2.728, 6: 2.850, 7: 2.949, 8: 3.031, 9: 
 
 
 def load_bench():
+    """Charge benchmark.csv"""
     p = os.path.join(RES, "benchmark.csv")
     if os.path.exists(p):
         return pd.read_csv(p)
@@ -84,15 +86,13 @@ def esc(s):
     import re
     return "".join(p if p.startswith("$") else p for p in re.split(r"(\$[^$]*\$)", s))
 
-#latex escape : ne pas échapper ce qui est entre $...$ (math mode)
+#latex
 def tex(df, name, **kw):
     s = df.to_latex(escape=False, **kw)
     open(os.path.join(TAB, name + ".tex"), "w").write(s)
 
 
 def ranks_table(M, higher):
-    """Rang de chaque méthode sur chaque jeu (1 = meilleure) ; M est la matrice jeux x méthodes des scores.
-    Les égalités reçoivent le rang moyen. higher = True si un score plus grand est meilleur."""
     R = M.rank(axis=1, ascending=not higher, method="average")
     return R
 
@@ -111,6 +111,7 @@ def cd_nemenyi(k, N):
     celles reliées par une même barre épaisse ne sont pas significativement différentes. `avg` : rang moyen par
     méthode, `cd` : distance critique."""
 def cd_diagram(ax, avg, cd, title=""):
+    
     names = sorted(avg, key=avg.get)
     k = len(names); lo, hi = 1, k
     ax.set_xlim(lo - 0.3, hi + 0.3); ax.set_ylim(0.4 - 0.15 * ((k + 1) // 2) - 0.05, 1.0); ax.axis("off")
@@ -141,9 +142,8 @@ def cd_diagram(ax, avg, cd, title=""):
     ax.plot([lo, lo + cd], [0.85, 0.85], "k", lw=1.2); ax.text(lo + cd / 2, 0.9, f"CD = {cd:.2f}", ha="center", fontsize=7)
     ax.set_title(title, fontsize=8, loc="center", y=0.99)
 
-
+"""Matrice jeux x méthodes de la métrique moyennée sur les découpages ; subset = liste de jeux à garder."""
 def per_dataset(B, metric, subset=None):
-    """Matrice jeux x méthodes de la métrique moyennée sur les découpages ; subset = liste de jeux à garder."""
     M = B.groupby(["data", "model"])[metric].mean().unstack()[ORDER]
     return M if subset is None else M.loc[subset]
 
@@ -169,7 +169,6 @@ def holm_wilcoxon(M, higher, pairs):
 
 
 def main():
-   
     B = load_bench()
     D = pd.read_csv(os.path.join(RES, "datasets.csv")).set_index("data")
     have = sorted(B.data.unique())
@@ -228,7 +227,7 @@ def main():
         M = per_dataset(B, met, sub)
         avg = rk[(met, grp)]
         cd_diagram(ax, {k: float(avg[k]) for k in ORDER}, cd_nemenyi(len(ORDER), len(M)), f"{METRICS[met]}, {grp} datasets (N={len(M)})")
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_cd_diagrams.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_cd_diagrams.png")); plt.close(fig)
 
     pairs = [("bagging", "tree"), ("adaboost_stumps", "tree"), ("adaboost_depth3", "tree"), ("rf", "tree"), ("gb", "tree"), ("hgb", "tree"),
              ("stacking", "tree"), ("rf", "logreg"), ("hgb", "logreg"), ("stacking", "logreg"), ("rf", "bagging"), ("adaboost_stumps", "bagging"),
@@ -264,7 +263,7 @@ def main():
         ax.set_xlabel(xl)
     axes[0].set_ylabel("test error: bagging $-$ AdaBoost")
     h, l = axes[0].get_legend_handles_labels(); fig.legend(h, l, loc="upper center", ncol=2, fontsize=6.5, bbox_to_anchor=(0.5, 1.07))
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_bag_vs_boost.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_bag_vs_boost.png")); plt.close(fig)
     NUM["bag_vs_boost"] = {"spearman_m_stumps": [float(x) for x in stats.spearmanr(np.log(dd.m), dd.bag_minus_ada1)],
                            "spearman_d_stumps": [float(x) for x in stats.spearmanr(np.log(dd.d), dd.bag_minus_ada1)],
                            "spearman_m_d3": [float(x) for x in stats.spearmanr(np.log(dd.m), dd.bag_minus_ada3)],
@@ -302,7 +301,7 @@ def main():
         ax.axvline(1 - triv, color="k", ls=":", lw=0.8); ax.text(1 - triv, -0.9, "always\nmajority", fontsize=6, ha="center")
         ax.set_yticks(xs); ax.set_yticklabels([LABEL[k] for k in ORDER], fontsize=6.5); ax.invert_yaxis(); ax.set_xlim(0.3, 1.0)
         ax.legend(fontsize=6, loc="upper center", bbox_to_anchor=(0.45, -0.1), ncol=3); ax.set_title("mean scores", fontsize=8)
-        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_imbalance.pdf")); plt.close(fig)
+        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_imbalance.png")); plt.close(fig)
         NUM["imbalanced_trivial_accuracy"] = float(1 - triv)
         for m in METRICS:
             NUM.setdefault("imb_means", {})[m] = {LABEL[k]: round(float(per_dataset(B, m, imb).mean()[k]), 3) for k in ORDER}
@@ -337,7 +336,7 @@ def main():
                 ax.plot(s.index, s.values, ":", color=COL[mth], label=f"{LABEL[mth]}: train (noisy labels)")
             ax.set_xscale("log"); ax.set_xlabel("number of rounds / trees $T$"); ax.set_title(f"twonorm, {int(nz * 100)}% label noise", fontsize=8)
         axes[0].set_ylabel("error"); axes[0].legend(fontsize=6, loc="upper right")
-        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_rounds.pdf")); plt.close(fig)
+        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_rounds.png")); plt.close(fig)
         NUM["rounds"] = {}
         for nz in (0.0, 0.2):
             for mth in ("bagging", "adaboost_stumps", "adaboost_depth3"):
@@ -356,7 +355,7 @@ def main():
             ax.set_xticks(range(6)); ax.set_xticklabels(["1", "2", "3", "5", "8", "∞"], fontsize=6.5); ax.set_title(nm, fontsize=8)
             ax.set_xlabel("base-tree depth", fontsize=7)
         np.atleast_1d(axes)[0].set_ylabel("test error"); np.atleast_1d(axes)[0].legend(fontsize=6)
-        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_depth.pdf")); plt.close(fig)
+        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_depth.png")); plt.close(fig)
         NUM["depth"] = {nm: {f"{meth}|{dp}": round(float(v), 3) for (meth, dp), v in C[C.data == nm].groupby(["method", "depth"]).err.mean().items()} for nm in names}
     pD = os.path.join(RES, "exp_D_size.csv")
     if os.path.exists(pD):
@@ -369,7 +368,7 @@ def main():
                 ax.plot(s.index, s.values, "o-", ms=2.5, lw=1, color=COL[mth], label=LABEL[mth])
             ax.set_xscale("log"); ax.set_yscale("log"); ax.set_xlabel("training size $m$"); ax.set_title(nm, fontsize=8)
         np.atleast_1d(axes)[0].set_ylabel("test error"); np.atleast_1d(axes)[0].legend(fontsize=6)
-        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_size.pdf")); plt.close(fig)
+        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_size.png")); plt.close(fig)
         NUM["size"] = {nm: {f"{mth}|{m}": round(float(v), 3) for (mth, m), v in Z[Z.data == nm].groupby(["model", "m"]).err.mean().items()} for nm in names}
     pE = os.path.join(RES, "exp_E_stacking.csv")
     if os.path.exists(pE):
@@ -400,7 +399,7 @@ def main():
         ax = axes[1]
         mw = w.mean(); ax.bar([c[2:] for c in mw.index], mw.values, color="#2a9d8f"); ax.set_title("mean meta-model coefficients", fontsize=8)
         ax.tick_params(axis="x", labelsize=7)
-        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_stacking.pdf")); plt.close(fig)
+        fig.tight_layout(); fig.savefig(os.path.join(FIG, "p1_stacking.png")); plt.close(fig)
         Tt = G[cols].copy(); Tt.columns = ["stacking", "naive stack.", "uniform vote", "best member (CV)", "best member (oracle)", "mean member"]
         open(os.path.join(TAB, "stacking.tex"), "w").write(esc(Tt.round(3).to_latex(escape=False, column_format="l" + "c" * 6)))
 

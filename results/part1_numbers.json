@@ -540,7 +540,7 @@
    "tree": 0.401,
    "bagging": 0.336,
    "adaboost_stumps": 0.507,
-   "adaboost_depth3": 0.359,
+   "adaboost_depth3": 0.358,
    "rf": 0.351,
    "gb": 0.405
   },
@@ -580,7 +580,7 @@
    "tree": 0.339,
    "bagging": 0.19,
    "adaboost_stumps": 0.223,
-   "adaboost_depth3": 0.211,
+   "adaboost_depth3": 0.212,
    "rf": 0.172,
    "gb": 0.206
   },
@@ -633,7 +633,7 @@
    "Tmax": 500
   },
   "adaboost_depth3|0.0": {
-   "min": 0.0338,
+   "min": 0.0336,
    "argmin": 472,
    "at10": 0.0989,
    "final": 0.0342,
@@ -654,10 +654,10 @@
    "Tmax": 500
   },
   "adaboost_depth3|0.2": {
-   "min": 0.1444,
+   "min": 0.1442,
    "argmin": 421,
-   "at10": 0.1968,
-   "final": 0.1473,
+   "at10": 0.197,
+   "final": 0.1471,
    "Tmax": 500
   }
  },
@@ -665,9 +665,9 @@
   "pima": {
    "adaboost|1": 0.221,
    "adaboost|2": 0.235,
-   "adaboost|3": 0.242,
+   "adaboost|3": 0.243,
    "adaboost|5": 0.245,
-   "adaboost|8": 0.241,
+   "adaboost|8": 0.242,
    "bagging|0": 0.227,
    "bagging|1": 0.262,
    "bagging|2": 0.244,
@@ -683,8 +683,8 @@
   },
   "wdbc": {
    "adaboost|1": 0.039,
-   "adaboost|2": 0.036,
-   "adaboost|3": 0.032,
+   "adaboost|2": 0.037,
+   "adaboost|3": 0.03,
    "adaboost|5": 0.058,
    "adaboost|8": 0.089,
    "bagging|0": 0.043,
@@ -703,9 +703,9 @@
   "german": {
    "adaboost|1": 0.241,
    "adaboost|2": 0.26,
-   "adaboost|3": 0.262,
+   "adaboost|3": 0.261,
    "adaboost|5": 0.248,
-   "adaboost|8": 0.253,
+   "adaboost|8": 0.251,
    "bagging|0": 0.252,
    "bagging|1": 0.3,
    "bagging|2": 0.276,
@@ -721,9 +721,9 @@
   },
   "vehicle": {
    "adaboost|1": 0.038,
-   "adaboost|2": 0.027,
+   "adaboost|2": 0.026,
    "adaboost|3": 0.024,
-   "adaboost|5": 0.03,
+   "adaboost|5": 0.028,
    "adaboost|8": 0.075,
    "bagging|0": 0.051,
    "bagging|1": 0.236,
@@ -779,13 +779,13 @@
  },
  "size": {
   "spambase": {
-   "adaboost_depth3|50": 0.226,
-   "adaboost_depth3|100": 0.116,
-   "adaboost_depth3|200": 0.098,
+   "adaboost_depth3|50": 0.221,
+   "adaboost_depth3|100": 0.115,
+   "adaboost_depth3|200": 0.099,
    "adaboost_depth3|500": 0.071,
    "adaboost_depth3|1000": 0.063,
    "adaboost_depth3|3000": 0.054,
-   "adaboost_stumps|50": 0.177,
+   "adaboost_stumps|50": 0.178,
    "adaboost_stumps|100": 0.119,
    "adaboost_stumps|200": 0.096,
    "adaboost_stumps|500": 0.071,
@@ -812,12 +812,12 @@
   },
   "satimage": {
    "adaboost_depth3|50": 0.145,
-   "adaboost_depth3|100": 0.104,
-   "adaboost_depth3|200": 0.077,
-   "adaboost_depth3|500": 0.072,
+   "adaboost_depth3|100": 0.103,
+   "adaboost_depth3|200": 0.076,
+   "adaboost_depth3|500": 0.073,
    "adaboost_depth3|1000": 0.067,
    "adaboost_depth3|3000": 0.061,
-   "adaboost_stumps|50": 0.103,
+   "adaboost_stumps|50": 0.105,
    "adaboost_stumps|100": 0.099,
    "adaboost_stumps|200": 0.081,
    "adaboost_stumps|500": 0.08,
@@ -844,8 +844,8 @@
   }
  },
  "stacking": {
-  "stacking": 0.1,
-  "stacking_naive": 0.1226,
+  "stacking": 0.0999,
+  "stacking_naive": 0.1225,
   "uniform_vote": 0.1083,
   "best_member_cv": 0.1038,
   "best_member_oracle": 0.0972,
@@ -854,17 +854,17 @@
   "wins_vs_best_member_oracle": 9,
   "ties_vs_best_member_oracle": 0,
   "N": 21,
-  "time_ratio_median": 6.905348522691428,
-  "time_ratio_mean": 6.67448121305961,
+  "time_ratio_median": 6.939495421060146,
+  "time_ratio_mean": 6.730157228429543,
   "wilcoxon_vs_cv_best_p": 0.16780662536621094,
   "wilcoxon_vs_oracle_p": 0.2572479248046875,
   "wilcoxon_naive_p": 0.0005167151238567522,
   "mean_meta_weights": {
    "tree": 0.429,
    "logreg": 0.516,
-   "7nn": 0.556,
+   "7nn": 0.557,
    "nb": 0.298,
-   "svm": 1.279
+   "svm": 1.278
   }
  },
  "real_noise": {
@@ -880,7 +880,7 @@
    "tree": 0.262,
    "bagging": 0.154,
    "adaboost_stumps": 0.162,
-   "adaboost_depth3": 0.18,
+   "adaboost_depth3": 0.179,
    "rf": 0.138,
    "gb": 0.151
   },
@@ -888,7 +888,7 @@
    "tree": 0.316,
    "bagging": 0.178,
    "adaboost_stumps": 0.182,
-   "adaboost_depth3": 0.232,
+   "adaboost_depth3": 0.231,
    "rf": 0.156,
    "gb": 0.175
   }

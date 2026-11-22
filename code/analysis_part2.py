@@ -31,7 +31,7 @@ FIG = os.path.join(HERE, "..", "figures")
 TAB = os.path.join(RES, "tables")
 os.makedirs(FIG, exist_ok=True); os.makedirs(TAB, exist_ok=True)
 plt.rcParams.update({"font.family": "serif", "font.size": 8, "axes.spines.top": False, "axes.spines.right": False,
-                     "legend.frameon": False, "savefig.bbox": "tight", "figure.dpi": 130})
+                     "legend.frameon": False, "savefig.bbox": "tight", "savefig.dpi": 200, "figure.dpi": 130})
 C1, C2, C3, C4, C5, GREY = "#1f5f99", "#c8553d", "#2a9d8f", "#e9a13b", "#6c4f9c", "#8c8c8c"
 NUM = {}
 
@@ -83,7 +83,7 @@ def q1():
         grid = 2.0 ** np.arange(15)
         ax.plot(grid, 0.10 + (KL + np.log(15 / 0.05)) / grid + grid / (8 * m), "o", ms=2.2, color=c)
     ax.set_xscale("log"); ax.set_xlabel("$\\lambda$ (dots: the grid $2^k$)"); ax.set_ylim(0.1, 1.0); ax.set_title("bound A, $m=1000$", fontsize=8); ax.legend(fontsize=6)
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q1_bounds.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q1_bounds.png")); plt.close(fig)
     emp, rows = 0.10, []
     for m in (200, 1000, 10000):
         for KL in (5, 50):
@@ -149,7 +149,7 @@ def q2():
         if row == 1:
             axes[row, 0].set_xlabel("$\\lambda$"); axes[row, 1].set_xlabel("$\\lambda$")
     axes[0, 0].legend(fontsize=6, ncol=1); axes[0, 1].legend(fontsize=6)
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q2_lambda.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q2_lambda.png")); plt.close(fig)
     s = Lm.groupby(["data", "lam"]).mean(numeric_only=True).reset_index()
     NUM["q2_lambda"] = {nm: {"lam_best_bound": float(x.loc[x.bound_A.idxmin(), "lam"]), "lam_best_test_vote": float(x.loc[x.test_vote.idxmin(), "lam"]),
                              "KL_at_lam1": float(x.KL.iloc[0]), "KL_at_lam_max": float(x.KL.iloc[-1]), "neff_at_lam_max": float(x.neff.iloc[-1]),
@@ -188,7 +188,7 @@ def q3():
     ax.bar(x - 1.5 * w, V[("stumps", "uniform")], w, color=C1); ax.bar(x - 0.5 * w, V[("stumps", "learned")], w, color="#8fb4d6")
     ax.bar(x + 0.5 * w, V[("linear", "zero")], w, color=C2); ax.bar(x + 1.5 * w, V[("linear", "learned")], w, color="#e3aa9c")
     ax.set_xticks(x); ax.set_xticklabels(V.index, rotation=60, ha="right", fontsize=6.5); ax.set_ylabel("test risk of the vote")
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q3_prior.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q3_prior.png")); plt.close(fig)
     pv = A.pivot_table(index=["data", "seed"], columns=["family", "prior"], values=["seeger", "KL", "test_vote", "test_gibbs"])
     NUM["q3"] = {"table": g.round(4).reset_index().to_dict("records"),
                  "frac_seeger_lower_stumps": float((pv["seeger"][("stumps", "learned")] < pv["seeger"][("stumps", "uniform")]).mean()),
@@ -233,7 +233,7 @@ def q4():
             ax.annotate(lab, (r.test_gibbs, r.test_vote), fontsize=5.5, xytext=(3, 3), textcoords="offset points")
     ax.plot([0.15, 0.4], [0.15, 0.4], "k:", lw=0.7); ax.set_xlabel("test risk of the Gibbs classifier"); ax.set_ylabel("test risk of the majority vote")
     ax.set_xlim(0.15, 0.4); ax.set_ylim(0.15, 0.32)
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q4_family.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q4_family.png")); plt.close(fig)
     s = d[d.posterior.isin(["stumps: bound A", "linear: bound A"])].groupby(["data", "posterior"])[["seeger", "test_vote", "test_gibbs"]].mean().unstack()
     NUM["q4_per_dataset"] = flat(s.round(3))
     NUM["q4_linear_better_vote_datasets"] = int((s[("test_vote", "linear: bound A")] < s[("test_vote", "stumps: bound A")]).sum())
@@ -287,7 +287,7 @@ def q5():
     for i, c in enumerate(order):
         ax.bar(xs + (i - len(order) / 2) * wd + wd / 2, Tt[c], wd, color=cols[i % len(cols)], label=c)
     ax.set_xticks(xs); ax.set_xticklabels(Tt.index, fontsize=7); ax.set_ylabel("test error"); ax.legend(fontsize=5.5, ncol=3, loc="upper left")
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q5_classical.pdf")); plt.close(fig)
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "p2_q5_classical.png")); plt.close(fig)
 
 
 if __name__ == "__main__":
