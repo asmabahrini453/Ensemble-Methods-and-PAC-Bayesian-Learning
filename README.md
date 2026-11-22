@@ -1,7 +1,4 @@
-# Projet — Méthodes d'ensemble et apprentissage PAC-Bayésien (Master 2 MALIA)
-
-Cours « Ensemble Methods » (G. Metzler).
-Rapport : `report/rapport.pdf` (source `report/rapport.tex` ; page de garde + 12 pages de texte + annexes, soit 15 pages au total).
+# Projet — Méthodes d'ensemble et apprentissage PAC-Bayésien 
 
 ## Organisation du dossier
 
@@ -11,9 +8,9 @@ Rapport : `report/rapport.pdf` (source `report/rapport.tex` ; page de garde + 12
 | `code/validate_implementations.py` | vérifie ces implémentations contre scikit-learn → `results/validation.csv` |
 | `code/benchmark.py` | benchmark principal de la partie 1 (10 méthodes × 21 jeux × 10 découpages) → `results/benchmark.csv` |
 | `code/experiments_part1.py` | expériences contrôlées A–F (simulations avec bruit d'étiquettes, nombre de tours, profondeur, taille, stacking, bruit sur données réelles) |
-| `code/analysis_part1.py` | tableaux de la partie 1 (`results/tables/*.tex`), figures (`figures/p1_*.pdf`), chiffres (`results/part1_numbers.json`) |
+| `code/analysis_part1.py` | tableaux de la partie 1 (`results/tables/*.tex`), figures (`figures/p1_*.png`), chiffres (`results/part1_numbers.json`) |
 | `code/experiments_part2.py` | partie 2, questions Q1 à Q5 (utilise `pacbayes_tools.py` fourni, inchangé) → `results/p2_*.csv` |
-| `code/analysis_part2.py` | tableaux et figures de la partie 2 (`figures/p2_*.pdf`), chiffres (`results/part2_numbers.json`) |
+| `code/analysis_part2.py` | tableaux et figures de la partie 2 (`figures/p2_*.png`), chiffres (`results/part2_numbers.json`) |
 | `code/benchkit.py`, `code/pacbayes_tools.py`, `common/`, `data/` | fichiers fournis, **non modifiés** |
 | `notebooks/01_partie1_methodes_ensemble.ipynb`, `notebooks/02_partie2_pac_bayes.ipynb` | lecture guidée des parties 1 et 2 : ils rechargent `results/` et affichent tableaux et courbes ; rien de long n'est recalculé (`cd notebooks && jupyter notebook`, nécessite `pip install notebook`) |
 | `report/rapport.tex` | le rapport (`latexmk -pdf rapport.tex` ; lit `../figures` et `../results/tables`) |
@@ -57,3 +54,5 @@ Remarque : `benchmark.py` met ses résultats en cache ; pour le relancer entièr
 
 - Les étiquettes des figures et les en-têtes des tableaux générés par les scripts sont en anglais ; le texte du rapport est en français.
 - Un nouveau lancement peut donner de très faibles écarts (de l'ordre de 10⁻³) sur certaines valeurs (stacking, risques de test PAC-Bayes sur stumps) selon la version des bibliothèques et le parallélisme ; les conclusions ne changent pas.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MASTER 2 MALIA - B.Asma
