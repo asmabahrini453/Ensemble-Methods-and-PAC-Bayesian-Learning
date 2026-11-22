@@ -1,0 +1,23 @@
+\begin{tabular}{llcccrr}
+\toprule
+A & B & mean err(A)$-$err(B) & A better & B better & $p$ & $p$ (Holm) \\
+\midrule
+bagging & tree & -0.042 & 21 & 0 & $<0.001$ & $<0.001$ \\
+AdaBoost (depth 3) & tree & -0.048 & 21 & 0 & $<0.001$ & $<0.001$ \\
+random forest & tree & -0.053 & 21 & 0 & $<0.001$ & $<0.001$ \\
+grad. boosting & tree & -0.046 & 21 & 0 & $<0.001$ & $<0.001$ \\
+hist. grad. boosting & tree & -0.049 & 21 & 0 & $<0.001$ & $<0.001$ \\
+stacking & tree & -0.053 & 20 & 1 & $<0.001$ & $<0.001$ \\
+random forest & bagging & -0.011 & 20 & 1 & $<0.001$ & $<0.001$ \\
+AdaBoost (stumps) & tree & -0.050 & 19 & 2 & $<0.001$ & $<0.001$ \\
+stacking & log. reg. & -0.025 & 18 & 2 & 0.001 & 0.009 \\
+random forest & log. reg. & -0.024 & 12 & 9 & 0.070 & 0.561 \\
+hist. grad. boosting & log. reg. & -0.021 & 11 & 10 & 0.137 & 0.961 \\
+AdaBoost (stumps) & bagging & -0.008 & 13 & 8 & 0.452 & 1.000 \\
+AdaBoost (depth 3) & bagging & -0.006 & 12 & 9 & 0.452 & 1.000 \\
+hist. grad. boosting & random forest & +0.003 & 10 & 11 & 0.473 & 1.000 \\
+grad. boosting & AdaBoost (stumps) & +0.004 & 8 & 13 & 0.658 & 1.000 \\
+stacking & hist. grad. boosting & -0.004 & 12 & 9 & 0.708 & 1.000 \\
+stacking & random forest & -0.000 & 10 & 9 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}

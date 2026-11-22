@@ -1,0 +1,1361 @@
+data,seed,approach,method,test_err,certificate
+wdbc,0,classical,"AdaBoost (stumps, T=100)",0.04093567251461988,
+wdbc,0,classical,random forest (200),0.05263157894736842,
+wdbc,0,classical,gradient boosting (hist),0.029239766081871343,
+wdbc,0,classical,stacking (ours),0.06432748538011696,
+wdbc,0,classical,logistic regression,0.04093567251461988,
+wdbc,0,PAC-Bayes,"stumps, bound A (vote)",0.0935672514619883,0.16618947836058856
+wdbc,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.10105461098182111,0.16618947836058856
+wdbc,0,PAC-Bayes,"stumps, bound B (vote)",0.09941520467836257,0.16411394339335578
+wdbc,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.09941520468404155,0.16411394339335578
+wdbc,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.05263157894736842,0.16722179275421628
+wdbc,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.08937136490575885,0.16722179275421628
+wdbc,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.05263157894736842,0.17065915277527827
+wdbc,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.09604318609471663,0.17065915277527827
+wdbc,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.05847953216374269,0.12888564622485438
+wdbc,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.09391254612257618,0.12888564622485438
+wdbc,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.05847953216374269,0.12670112002034614
+wdbc,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.09016208033001562,0.12670112002034614
+wdbc,1,classical,"AdaBoost (stumps, T=100)",0.05263157894736842,
+wdbc,1,classical,random forest (200),0.05847953216374269,
+wdbc,1,classical,gradient boosting (hist),0.05847953216374269,
+wdbc,1,classical,stacking (ours),0.04678362573099415,
+wdbc,1,classical,logistic regression,0.04093567251461988,
+wdbc,1,PAC-Bayes,"stumps, bound A (vote)",0.10526315789473684,0.16908308228257235
+wdbc,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.10732562283671698,0.16908308228257235
+wdbc,1,PAC-Bayes,"stumps, bound B (vote)",0.10526315789473684,0.16754619071339558
+wdbc,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.10772214016212125,0.16754619071339558
+wdbc,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.04678362573099415,0.18541151826174515
+wdbc,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.08673870179940311,0.18541151826174515
+wdbc,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.05263157894736842,0.18859041353848757
+wdbc,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.09217784495454837,0.18859041353848757
+wdbc,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.04093567251461988,0.13876071672828502
+wdbc,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.08058304794131003,0.13876071672828502
+wdbc,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.04093567251461988,0.13643612624096443
+wdbc,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.07797035052144738,0.13643612624096443
+wdbc,2,classical,"AdaBoost (stumps, T=100)",0.04093567251461988,
+wdbc,2,classical,random forest (200),0.05847953216374269,
+wdbc,2,classical,gradient boosting (hist),0.04678362573099415,
+wdbc,2,classical,stacking (ours),0.04093567251461988,
+wdbc,2,classical,logistic regression,0.029239766081871343,
+wdbc,2,PAC-Bayes,"stumps, bound A (vote)",0.08187134502923976,0.18282739518825702
+wdbc,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.09714833935752153,0.18282739518825702
+wdbc,2,PAC-Bayes,"stumps, bound B (vote)",0.08187134502923976,0.18146039356384097
+wdbc,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.08187134609361768,0.18146039356384097
+wdbc,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.03508771929824561,0.1735531301454551
+wdbc,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.0794128009663382,0.1735531301454551
+wdbc,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.03508771929824561,0.17686711774347671
+wdbc,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.08646083576814607,0.17686711774347671
+wdbc,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.029239766081871343,0.1288283505651821
+wdbc,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.07290916592206693,0.1288283505651821
+wdbc,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.029239766081871343,0.12744086081486267
+wdbc,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.07087056805237896,0.12744086081486267
+wdbc,3,classical,"AdaBoost (stumps, T=100)",0.029239766081871343,
+wdbc,3,classical,random forest (200),0.05263157894736842,
+wdbc,3,classical,gradient boosting (hist),0.03508771929824561,
+wdbc,3,classical,stacking (ours),0.023391812865497075,
+wdbc,3,classical,logistic regression,0.023391812865497075,
+wdbc,3,PAC-Bayes,"stumps, bound A (vote)",0.07017543859649122,0.15600206584479243
+wdbc,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.08370004937174545,0.15600206584479243
+wdbc,3,PAC-Bayes,"stumps, bound B (vote)",0.07602339181286549,0.1542735090386965
+wdbc,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.08328503865658356,0.1542735090386965
+wdbc,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.03508771929824561,0.16286539577492082
+wdbc,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.0683329479235578,0.16286539577492082
+wdbc,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.03508771929824561,0.1662129196648637
+wdbc,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.07502545739183558,0.1662129196648637
+wdbc,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.029239766081871343,0.1193986071382453
+wdbc,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.05928143389424751,0.1193986071382453
+wdbc,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.017543859649122806,0.11837223618731547
+wdbc,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.05787127060761973,0.11837223618731547
+wdbc,4,classical,"AdaBoost (stumps, T=100)",0.05263157894736842,
+wdbc,4,classical,random forest (200),0.06432748538011696,
+wdbc,4,classical,gradient boosting (hist),0.04678362573099415,
+wdbc,4,classical,stacking (ours),0.017543859649122806,
+wdbc,4,classical,logistic regression,0.04678362573099415,
+wdbc,4,PAC-Bayes,"stumps, bound A (vote)",0.0935672514619883,0.17315750885210832
+wdbc,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.11226613986425968,0.17315750885210832
+wdbc,4,PAC-Bayes,"stumps, bound B (vote)",0.10526315789473684,0.17160376815474496
+wdbc,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.10931527771981434,0.17160376815474496
+wdbc,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.029239766081871343,0.16031160522306082
+wdbc,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.07829290407837103,0.16031160522306082
+wdbc,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.029239766081871343,0.1636592831617591
+wdbc,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.08445993643341558,0.1636592831617591
+wdbc,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.05263157894736842,0.11606572683979983
+wdbc,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.07569892537063326,0.11606572683979983
+wdbc,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.05263157894736842,0.11516845698235507
+wdbc,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.07439225117043176,0.11516845698235507
+wdbc,5,classical,"AdaBoost (stumps, T=100)",0.029239766081871343,
+wdbc,5,classical,random forest (200),0.05847953216374269,
+wdbc,5,classical,gradient boosting (hist),0.05263157894736842,
+wdbc,5,classical,stacking (ours),0.029239766081871343,
+wdbc,5,classical,logistic regression,0.023391812865497075,
+wdbc,5,PAC-Bayes,"stumps, bound A (vote)",0.11695906432748537,0.15582337865135706
+wdbc,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.1429779491061248,0.15582337865135706
+wdbc,5,PAC-Bayes,"stumps, bound B (vote)",0.11695906432748537,0.1544309345261262
+wdbc,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.13867119809313672,0.1544309345261262
+wdbc,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.03508771929824561,0.17611948143560946
+wdbc,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.08519579892599788,0.17611948143560946
+wdbc,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.04093567251461988,0.17930393022176133
+wdbc,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.09207005858229304,0.17930393022176133
+wdbc,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.029239766081871343,0.12885069938510338
+wdbc,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.07346724233035916,0.12885069938510338
+wdbc,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.029239766081871343,0.12762998825170477
+wdbc,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.07173908230432426,0.12762998825170477
+wdbc,6,classical,"AdaBoost (stumps, T=100)",0.023391812865497075,
+wdbc,6,classical,random forest (200),0.029239766081871343,
+wdbc,6,classical,gradient boosting (hist),0.04678362573099415,
+wdbc,6,classical,stacking (ours),0.023391812865497075,
+wdbc,6,classical,logistic regression,0.029239766081871343,
+wdbc,6,PAC-Bayes,"stumps, bound A (vote)",0.07017543859649122,0.1846132585004407
+wdbc,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.07894047116103123,0.1846132585004407
+wdbc,6,PAC-Bayes,"stumps, bound B (vote)",0.07017543859649122,0.183419173946423
+wdbc,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.07744503007757443,0.183419173946423
+wdbc,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.023391812865497075,0.1918185678836168
+wdbc,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.06989424500341596,0.1918185678836168
+wdbc,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.029239766081871343,0.19480151444879373
+wdbc,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.07640089699970978,0.19480151444879373
+wdbc,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.023391812865497075,0.14624104036824098
+wdbc,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.0632337147265684,0.14624104036824098
+wdbc,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.023391812865497075,0.1445612354504306
+wdbc,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.060834043758412594,0.1445612354504306
+wdbc,7,classical,"AdaBoost (stumps, T=100)",0.05263157894736842,
+wdbc,7,classical,random forest (200),0.06432748538011696,
+wdbc,7,classical,gradient boosting (hist),0.05263157894736842,
+wdbc,7,classical,stacking (ours),0.023391812865497075,
+wdbc,7,classical,logistic regression,0.029239766081871343,
+wdbc,7,PAC-Bayes,"stumps, bound A (vote)",0.10526315789473684,0.1764749256372032
+wdbc,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.10665943850301027,0.1764749256372032
+wdbc,7,PAC-Bayes,"stumps, bound B (vote)",0.10526315789473684,0.17563733283814517
+wdbc,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.1056717326307317,0.17563733283814517
+wdbc,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.04678362573099415,0.16963989318857492
+wdbc,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.07438153284483427,0.16963989318857492
+wdbc,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.04678362573099415,0.1729291270810726
+wdbc,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.08045952594421278,0.1729291270810726
+wdbc,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.04678362573099415,0.1247208886099523
+wdbc,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.06915178367836085,0.1247208886099523
+wdbc,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.04678362573099415,0.12347039051327731
+wdbc,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.06748924956269318,0.12347039051327731
+wdbc,8,classical,"AdaBoost (stumps, T=100)",0.03508771929824561,
+wdbc,8,classical,random forest (200),0.04093567251461988,
+wdbc,8,classical,gradient boosting (hist),0.04093567251461988,
+wdbc,8,classical,stacking (ours),0.011695906432748537,
+wdbc,8,classical,logistic regression,0.023391812865497075,
+wdbc,8,PAC-Bayes,"stumps, bound A (vote)",0.09941520467836257,0.17415699009047078
+wdbc,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.09975018332816717,0.17415699009047078
+wdbc,8,PAC-Bayes,"stumps, bound B (vote)",0.09941520467836257,0.17288062260577738
+wdbc,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.09941520467873491,0.17288062260577738
+wdbc,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.029239766081871343,0.16980707094510814
+wdbc,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.07803611579859883,0.16980707094510814
+wdbc,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.04093567251461988,0.17338702067995743
+wdbc,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.08435760911714717,0.17338702067995743
+wdbc,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.023391812865497075,0.1297672106872095
+wdbc,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.07057897655062308,0.1297672106872095
+wdbc,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.023391812865497075,0.12771343839904564
+wdbc,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.06820371954440302,0.12771343839904564
+wdbc,9,classical,"AdaBoost (stumps, T=100)",0.023391812865497075,
+wdbc,9,classical,random forest (200),0.017543859649122806,
+wdbc,9,classical,gradient boosting (hist),0.017543859649122806,
+wdbc,9,classical,stacking (ours),0.023391812865497075,
+wdbc,9,classical,logistic regression,0.017543859649122806,
+wdbc,9,PAC-Bayes,"stumps, bound A (vote)",0.0935672514619883,0.17270695804783903
+wdbc,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.08849705204564313,0.17270695804783903
+wdbc,9,PAC-Bayes,"stumps, bound B (vote)",0.0935672514619883,0.17152807091032612
+wdbc,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.08885393109491513,0.17152807091032612
+wdbc,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.017543859649122806,0.17387828013569648
+wdbc,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.06083977140791892,0.17387828013569648
+wdbc,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.017543859649122806,0.17729129151306727
+wdbc,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.06622118096774487,0.17729129151306727
+wdbc,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.017543859649122806,0.13406768156993504
+wdbc,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.056117108937067096,0.13406768156993504
+wdbc,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.017543859649122806,0.13193687680049546
+wdbc,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.05391386795705791,0.13193687680049546
+pima,0,classical,"AdaBoost (stumps, T=100)",0.22510822510822512,
+pima,0,classical,random forest (200),0.21212121212121213,
+pima,0,classical,gradient boosting (hist),0.20346320346320346,
+pima,0,classical,stacking (ours),0.22943722943722944,
+pima,0,classical,logistic regression,0.22510822510822512,
+pima,0,PAC-Bayes,"stumps, bound A (vote)",0.2554112554112554,0.34215132726253483
+pima,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.2552718260387973,0.34215132726253483
+pima,0,PAC-Bayes,"stumps, bound B (vote)",0.2554112554112554,0.34221942606519623
+pima,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.2554112609198896,0.34221942606519623
+pima,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.22943722943722944,0.4012648273083567
+pima,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.252762917605831,0.4012648273083567
+pima,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.22943722943722944,0.40135084666954424
+pima,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2554551408059349,0.40135084666954424
+pima,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.23809523809523808,0.3757273315382387
+pima,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2539971373180699,0.3757273315382387
+pima,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2510822510822511,0.3736696364806419
+pima,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.24715639037021692,0.3736696364806419
+pima,1,classical,"AdaBoost (stumps, T=100)",0.2683982683982684,
+pima,1,classical,random forest (200),0.2554112554112554,
+pima,1,classical,gradient boosting (hist),0.2597402597402597,
+pima,1,classical,stacking (ours),0.24242424242424243,
+pima,1,classical,logistic regression,0.23809523809523808,
+pima,1,PAC-Bayes,"stumps, bound A (vote)",0.2683982683982684,0.33929549306487655
+pima,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.2681358009383121,0.33929549306487655
+pima,1,PAC-Bayes,"stumps, bound B (vote)",0.2683982683982684,0.33944301588176157
+pima,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.26839827771995006,0.33944301588176157
+pima,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.26406926406926406,0.36818554606689513
+pima,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2851607516955033,0.36818554606689513
+pima,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.26406926406926406,0.36836659406783456
+pima,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2875528566277375,0.36836659406783456
+pima,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24675324675324675,0.3310955284387863
+pima,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.27421504861573504,0.3310955284387863
+pima,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.24242424242424243,0.32976193775133356
+pima,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2711203176849654,0.32976193775133356
+pima,2,classical,"AdaBoost (stumps, T=100)",0.26406926406926406,
+pima,2,classical,random forest (200),0.24242424242424243,
+pima,2,classical,gradient boosting (hist),0.26406926406926406,
+pima,2,classical,stacking (ours),0.23809523809523808,
+pima,2,classical,logistic regression,0.22077922077922077,
+pima,2,PAC-Bayes,"stumps, bound A (vote)",0.30303030303030304,0.33866515085653387
+pima,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.2949513527890329,0.33866515085653387
+pima,2,PAC-Bayes,"stumps, bound B (vote)",0.30303030303030304,0.3386755475219145
+pima,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.29167758775891667,0.3386755475219145
+pima,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.22943722943722944,0.39132061935923346
+pima,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2702300255504193,0.39132061935923346
+pima,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.23376623376623376,0.3914374523106091
+pima,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2726184225795764,0.3914374523106091
+pima,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.23809523809523808,0.35334457486799653
+pima,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2648222501135111,0.35334457486799653
+pima,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.23376623376623376,0.3520327046397783
+pima,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2606553881487812,0.3520327046397783
+pima,3,classical,"AdaBoost (stumps, T=100)",0.24242424242424243,
+pima,3,classical,random forest (200),0.22943722943722944,
+pima,3,classical,gradient boosting (hist),0.24675324675324675,
+pima,3,classical,stacking (ours),0.2510822510822511,
+pima,3,classical,logistic regression,0.2554112554112554,
+pima,3,PAC-Bayes,"stumps, bound A (vote)",0.2813852813852814,0.35959859079603074
+pima,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.27942467013967864,0.35959859079603074
+pima,3,PAC-Bayes,"stumps, bound B (vote)",0.2813852813852814,0.3600662594442107
+pima,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.2813852840650451,0.3600662594442107
+pima,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2554112554112554,0.3860619722905948
+pima,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.27203756515822,0.3860619722905948
+pima,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.24242424242424243,0.3861714723501026
+pima,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.27508585630856447,0.3861714723501026
+pima,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24242424242424243,0.34737818720156505
+pima,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2704551250120858,0.34737818720156505
+pima,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.24242424242424243,0.3463956071963878
+pima,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.26637489838382505,0.3463956071963878
+pima,4,classical,"AdaBoost (stumps, T=100)",0.2857142857142857,
+pima,4,classical,random forest (200),0.29004329004329005,
+pima,4,classical,gradient boosting (hist),0.29004329004329005,
+pima,4,classical,stacking (ours),0.2683982683982684,
+pima,4,classical,logistic regression,0.2683982683982684,
+pima,4,PAC-Bayes,"stumps, bound A (vote)",0.27705627705627706,0.34469840311364813
+pima,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.2770994258813788,0.34469840311364813
+pima,4,PAC-Bayes,"stumps, bound B (vote)",0.27705627705627706,0.34472375030236735
+pima,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.27705685515457235,0.34472375030236735
+pima,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2683982683982684,0.3890676053651629
+pima,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.3059182780800461,0.3890676053651629
+pima,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.2683982683982684,0.38920335026982905
+pima,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.30870730046963263,0.38920335026982905
+pima,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.26406926406926406,0.3476484366410861
+pima,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.3036044088158047,0.3476484366410861
+pima,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2597402597402597,0.3464571961221314
+pima,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2986218662021117,0.3464571961221314
+pima,5,classical,"AdaBoost (stumps, T=100)",0.24242424242424243,
+pima,5,classical,random forest (200),0.23809523809523808,
+pima,5,classical,gradient boosting (hist),0.2683982683982684,
+pima,5,classical,stacking (ours),0.24242424242424243,
+pima,5,classical,logistic regression,0.24242424242424243,
+pima,5,PAC-Bayes,"stumps, bound A (vote)",0.2683982683982684,0.3603172344579323
+pima,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.27152813693722483,0.3603172344579323
+pima,5,PAC-Bayes,"stumps, bound B (vote)",0.2683982683982684,0.3603196451153653
+pima,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.27193294927610334,0.3603196451153653
+pima,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2597402597402597,0.4019654277234507
+pima,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.29638962771417554,0.4019654277234507
+pima,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.2597402597402597,0.4020757921022672
+pima,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2986829588191513,0.4020757921022672
+pima,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.2727272727272727,0.35733917588311853
+pima,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.29202448588270513,0.35733917588311853
+pima,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2554112554112554,0.3561586975206855
+pima,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.28806361737173,0.3561586975206855
+pima,6,classical,"AdaBoost (stumps, T=100)",0.19913419913419914,
+pima,6,classical,random forest (200),0.21212121212121213,
+pima,6,classical,gradient boosting (hist),0.21645021645021645,
+pima,6,classical,stacking (ours),0.2077922077922078,
+pima,6,classical,logistic regression,0.2077922077922078,
+pima,6,PAC-Bayes,"stumps, bound A (vote)",0.2510822510822511,0.3714696856594496
+pima,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.2509266136490345,0.3714696856594496
+pima,6,PAC-Bayes,"stumps, bound B (vote)",0.2510822510822511,0.3714537543346654
+pima,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.25095534030879285,0.3714537543346654
+pima,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.21212121212121213,0.408170138206973
+pima,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.25599540964591805,0.408170138206973
+pima,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.21212121212121213,0.40820248138171167
+pima,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2591381974312595,0.40820248138171167
+pima,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.21212121212121213,0.36395613098184415
+pima,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.24679795872922283,0.36395613098184415
+pima,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.21212121212121213,0.36326759616702814
+pima,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.24399833532670795,0.36326759616702814
+pima,7,classical,"AdaBoost (stumps, T=100)",0.22510822510822512,
+pima,7,classical,random forest (200),0.23809523809523808,
+pima,7,classical,gradient boosting (hist),0.2683982683982684,
+pima,7,classical,stacking (ours),0.23376623376623376,
+pima,7,classical,logistic regression,0.22943722943722944,
+pima,7,PAC-Bayes,"stumps, bound A (vote)",0.2597402597402597,0.34577589643751516
+pima,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.2598930164053826,0.34577589643751516
+pima,7,PAC-Bayes,"stumps, bound B (vote)",0.2597402597402597,0.3457736380937092
+pima,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.26014692818867846,0.3457736380937092
+pima,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.23809523809523808,0.38771601155661933
+pima,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2891278683505492,0.38771601155661933
+pima,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.23809523809523808,0.3878640805638919
+pima,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.29078775508386817,0.3878640805638919
+pima,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.23809523809523808,0.36355951603388104
+pima,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.28179031679583655,0.36355951603388104
+pima,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.23809523809523808,0.36360715879038763
+pima,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2848680928421749,0.36360715879038763
+pima,8,classical,"AdaBoost (stumps, T=100)",0.3246753246753247,
+pima,8,classical,random forest (200),0.2727272727272727,
+pima,8,classical,gradient boosting (hist),0.3116883116883117,
+pima,8,classical,stacking (ours),0.2727272727272727,
+pima,8,classical,logistic regression,0.2857142857142857,
+pima,8,PAC-Bayes,"stumps, bound A (vote)",0.2987012987012987,0.3417062653655941
+pima,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.2985886032391059,0.3417062653655941
+pima,8,PAC-Bayes,"stumps, bound B (vote)",0.2987012987012987,0.3417139295953519
+pima,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.2984791461059898,0.3417139295953519
+pima,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2597402597402597,0.3799706612141511
+pima,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.30202125234309546,0.3799706612141511
+pima,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.2597402597402597,0.38012291391213954
+pima,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.30371459160733144,0.38012291391213954
+pima,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.26406926406926406,0.3360668280553018
+pima,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.29373425676951964,0.3360668280553018
+pima,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2683982683982684,0.33505264621480746
+pima,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2917149163110796,0.33505264621480746
+pima,9,classical,"AdaBoost (stumps, T=100)",0.24242424242424243,
+pima,9,classical,random forest (200),0.2077922077922078,
+pima,9,classical,gradient boosting (hist),0.22943722943722944,
+pima,9,classical,stacking (ours),0.2077922077922078,
+pima,9,classical,logistic regression,0.22077922077922077,
+pima,9,PAC-Bayes,"stumps, bound A (vote)",0.2727272727272727,0.3548074341274253
+pima,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.27273264962166316,0.3548074341274253
+pima,9,PAC-Bayes,"stumps, bound B (vote)",0.2727272727272727,0.3548038221881652
+pima,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.2728160004999683,0.3548038221881652
+pima,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.22077922077922077,0.3986549417815947
+pima,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2732742381638322,0.3986549417815947
+pima,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.22943722943722944,0.39875950862024107
+pima,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2758104238903569,0.39875950862024107
+pima,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.22943722943722944,0.3603905052525248
+pima,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2668819484274884,0.3603905052525248
+pima,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.22943722943722944,0.35908541371389674
+pima,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.26254528874149047,0.35908541371389674
+australian,0,classical,"AdaBoost (stumps, T=100)",0.13043478260869565,
+australian,0,classical,random forest (200),0.13526570048309178,
+australian,0,classical,gradient boosting (hist),0.14009661835748793,
+australian,0,classical,stacking (ours),0.14009661835748793,
+australian,0,classical,logistic regression,0.14009661835748793,
+australian,0,PAC-Bayes,"stumps, bound A (vote)",0.1497584541062802,0.23188616321363104
+australian,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.1497584541063776,0.23188616321363104
+australian,0,PAC-Bayes,"stumps, bound B (vote)",0.1497584541062802,0.23189629178091006
+australian,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.14977192224238509,0.23189629178091006
+australian,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1497584541062802,0.3025894292032497
+australian,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.18532872402714012,0.3025894292032497
+australian,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1497584541062802,0.30304544039919973
+australian,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1876913776027277,0.30304544039919973
+australian,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14009661835748793,0.2532481084214885
+australian,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.16990965707573527,0.2532481084214885
+australian,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14009661835748793,0.2515511276272914
+australian,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.16688495594021005,0.2515511276272914
+australian,1,classical,"AdaBoost (stumps, T=100)",0.18840579710144928,
+australian,1,classical,random forest (200),0.14492753623188406,
+australian,1,classical,gradient boosting (hist),0.17391304347826086,
+australian,1,classical,stacking (ours),0.13043478260869565,
+australian,1,classical,logistic regression,0.14492753623188406,
+australian,1,PAC-Bayes,"stumps, bound A (vote)",0.178743961352657,0.21624419533880074
+australian,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.17874396135265863,0.21624419533880074
+australian,1,PAC-Bayes,"stumps, bound B (vote)",0.178743961352657,0.21625485747298065
+australian,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.17875332400012062,0.21625485747298065
+australian,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.17391304347826086,0.2823771300336263
+australian,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.1922360790868255,0.2823771300336263
+australian,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.17391304347826086,0.282878869314145
+australian,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19382267409807083,0.282878869314145
+australian,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14492753623188406,0.236798592172541
+australian,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.17997154566396886,0.236798592172541
+australian,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14492753623188406,0.23469382048664728
+australian,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.17729844999299035,0.23469382048664728
+australian,2,classical,"AdaBoost (stumps, T=100)",0.14009661835748793,
+australian,2,classical,random forest (200),0.12560386473429952,
+australian,2,classical,gradient boosting (hist),0.16908212560386474,
+australian,2,classical,stacking (ours),0.11594202898550725,
+australian,2,classical,logistic regression,0.13043478260869565,
+australian,2,PAC-Bayes,"stumps, bound A (vote)",0.10628019323671498,0.2688411360266415
+australian,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.10628019329714017,0.2688411360266415
+australian,2,PAC-Bayes,"stumps, bound B (vote)",0.10628019323671498,0.26884169969901967
+australian,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.10628218099542569,0.26884169969901967
+australian,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12077294685990338,0.30967555902069693
+australian,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.16757386596429688,0.30967555902069693
+australian,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12077294685990338,0.3101567979955135
+australian,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.17071934105960673,0.3101567979955135
+australian,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.11594202898550725,0.25720942816085696
+australian,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.15490716473784952,0.25720942816085696
+australian,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.11594202898550725,0.25588186894390585
+australian,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1515580782149203,0.25588186894390585
+australian,3,classical,"AdaBoost (stumps, T=100)",0.12077294685990338,
+australian,3,classical,random forest (200),0.14492753623188406,
+australian,3,classical,gradient boosting (hist),0.14009661835748793,
+australian,3,classical,stacking (ours),0.15458937198067632,
+australian,3,classical,logistic regression,0.13043478260869565,
+australian,3,PAC-Bayes,"stumps, bound A (vote)",0.1497584541062802,0.25068133042211616
+australian,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.14975845410681027,0.25068133042211616
+australian,3,PAC-Bayes,"stumps, bound B (vote)",0.1497584541062802,0.2506880445666074
+australian,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.1497714260032897,0.2506880445666074
+australian,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12560386473429952,0.30524083026021626
+australian,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.17411659335390214,0.30524083026021626
+australian,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.13043478260869565,0.3056807840956361
+australian,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.17625075068101193,0.3056807840956361
+australian,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.13526570048309178,0.24922719246615696
+australian,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1709982575260408,0.24922719246615696
+australian,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.13526570048309178,0.24799841275772624
+australian,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1679789856519655,0.24799841275772624
+australian,4,classical,"AdaBoost (stumps, T=100)",0.1642512077294686,
+australian,4,classical,random forest (200),0.12560386473429952,
+australian,4,classical,gradient boosting (hist),0.12077294685990338,
+australian,4,classical,stacking (ours),0.13526570048309178,
+australian,4,classical,logistic regression,0.13043478260869565,
+australian,4,PAC-Bayes,"stumps, bound A (vote)",0.1497584541062802,0.2503716181226951
+australian,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.14975847468150275,0.2503716181226951
+australian,4,PAC-Bayes,"stumps, bound B (vote)",0.1497584541062802,0.25038705431663455
+australian,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.1497741957285046,0.25038705431663455
+australian,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12560386473429952,0.30906476783277753
+australian,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.17655850678364307,0.30906476783277753
+australian,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12560386473429952,0.30947779662342584
+australian,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.17882061707850563,0.30947779662342584
+australian,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.13526570048309178,0.2550482228120838
+australian,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1672162501183789,0.2550482228120838
+australian,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.13526570048309178,0.2535384353345797
+australian,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1633664602988172,0.2535384353345797
+australian,5,classical,"AdaBoost (stumps, T=100)",0.12560386473429952,
+australian,5,classical,random forest (200),0.12077294685990338,
+australian,5,classical,gradient boosting (hist),0.1497584541062802,
+australian,5,classical,stacking (ours),0.11594202898550725,
+australian,5,classical,logistic regression,0.12560386473429952,
+australian,5,PAC-Bayes,"stumps, bound A (vote)",0.12560386473429952,0.2627554798556345
+australian,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.12560386473492643,0.2627554798556345
+australian,5,PAC-Bayes,"stumps, bound B (vote)",0.12560386473429952,0.26276870710097755
+australian,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.12562696657184036,0.26276870710097755
+australian,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.10144927536231885,0.30629813050724825
+australian,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.15935299527116584,0.30629813050724825
+australian,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.10144927536231885,0.3067613922922515
+australian,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.16219130082434452,0.3067613922922515
+australian,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.11594202898550725,0.25598816502470545
+australian,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.15033032337257524,0.25598816502470545
+australian,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.11594202898550725,0.25465298765914934
+australian,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.146788258221532,0.25465298765914934
+australian,6,classical,"AdaBoost (stumps, T=100)",0.11594202898550725,
+australian,6,classical,random forest (200),0.11594202898550725,
+australian,6,classical,gradient boosting (hist),0.10628019323671498,
+australian,6,classical,stacking (ours),0.0966183574879227,
+australian,6,classical,logistic regression,0.12077294685990338,
+australian,6,PAC-Bayes,"stumps, bound A (vote)",0.1497584541062802,0.23827228018199026
+australian,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.1497584541064423,0.23827228018199026
+australian,6,PAC-Bayes,"stumps, bound B (vote)",0.1497584541062802,0.23828054160280415
+australian,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.14976759298588485,0.23828054160280415
+australian,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.11594202898550725,0.29008637249460895
+australian,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.1732350435929394,0.29008637249460895
+australian,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.11594202898550725,0.2905860598312414
+australian,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1754384617082394,0.2905860598312414
+australian,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.10628019323671498,0.24756784644034563
+australian,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.15643576045823274,0.24756784644034563
+australian,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.10144927536231885,0.24552927985131195
+australian,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1532548605837112,0.24552927985131195
+australian,7,classical,"AdaBoost (stumps, T=100)",0.1642512077294686,
+australian,7,classical,random forest (200),0.13526570048309178,
+australian,7,classical,gradient boosting (hist),0.14492753623188406,
+australian,7,classical,stacking (ours),0.1497584541062802,
+australian,7,classical,logistic regression,0.1497584541062802,
+australian,7,PAC-Bayes,"stumps, bound A (vote)",0.16908212560386474,0.22565012161926531
+australian,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.16908212560395947,0.22565012161926531
+australian,7,PAC-Bayes,"stumps, bound B (vote)",0.16908212560386474,0.22565721061279573
+australian,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.16909030407623554,0.22565721061279573
+australian,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.17391304347826086,0.2871804091304084
+australian,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.19852650069199426,0.2871804091304084
+australian,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.17391304347826086,0.28762779647502573
+australian,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19991684907362264,0.28762779647502573
+australian,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1642512077294686,0.2359939498065708
+australian,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.19076616998120327,0.2359939498065708
+australian,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1642512077294686,0.23395195428046595
+australian,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.187458335728103,0.23395195428046595
+australian,8,classical,"AdaBoost (stumps, T=100)",0.13526570048309178,
+australian,8,classical,random forest (200),0.1497584541062802,
+australian,8,classical,gradient boosting (hist),0.1642512077294686,
+australian,8,classical,stacking (ours),0.14492753623188406,
+australian,8,classical,logistic regression,0.15942028985507245,
+australian,8,PAC-Bayes,"stumps, bound A (vote)",0.1642512077294686,0.232011967611575
+australian,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.1642512077301232,0.232011967611575
+australian,8,PAC-Bayes,"stumps, bound B (vote)",0.1642512077294686,0.23201883083700733
+australian,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.16426004878139053,0.23201883083700733
+australian,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1497584541062802,0.2903188373204392
+australian,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.18617488104013136,0.2903188373204392
+australian,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1497584541062802,0.2907871563120363
+australian,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.18792074510151816,0.2907871563120363
+australian,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.15942028985507245,0.24477816212734388
+australian,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1771523820313389,0.24477816212734388
+australian,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1642512077294686,0.24252193740775158
+australian,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.17367069361920912,0.24252193740775158
+australian,9,classical,"AdaBoost (stumps, T=100)",0.1497584541062802,
+australian,9,classical,random forest (200),0.13043478260869565,
+australian,9,classical,gradient boosting (hist),0.16908212560386474,
+australian,9,classical,stacking (ours),0.16908212560386474,
+australian,9,classical,logistic regression,0.15942028985507245,
+australian,9,PAC-Bayes,"stumps, bound A (vote)",0.12560386473429952,0.25689654561889647
+australian,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.1256038647343391,0.25689654561889647
+australian,9,PAC-Bayes,"stumps, bound B (vote)",0.12560386473429952,0.25690442404089786
+australian,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.12561566747244265,0.25690442404089786
+australian,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1642512077294686,0.30908143614817096
+australian,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.1901528766987751,0.30908143614817096
+australian,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1642512077294686,0.3094485056111677
+australian,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19143519102271397,0.3094485056111677
+australian,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.16908212560386474,0.2534467972599052
+australian,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.18195953054817682,0.2534467972599052
+australian,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.17391304347826086,0.25144690620762294
+australian,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1794722785186874,0.25144690620762294
+german,0,classical,"AdaBoost (stumps, T=100)",0.23,
+german,0,classical,random forest (200),0.24,
+german,0,classical,gradient boosting (hist),0.24666666666666667,
+german,0,classical,stacking (ours),0.24666666666666667,
+german,0,classical,logistic regression,0.22333333333333333,
+german,0,PAC-Bayes,"stumps, bound A (vote)",0.3,0.3668982146383185
+german,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.30007037855968005,0.3668982146383185
+german,0,PAC-Bayes,"stumps, bound B (vote)",0.3,0.36699900217026415
+german,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.30000000000006755,0.36699900217026415
+german,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.24333333333333335,0.4180967728187525
+german,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2928209928384021,0.4180967728187525
+german,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.24,0.41745885822739054
+german,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2879761235922792,0.41745885822739054
+german,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24333333333333335,0.37133999440697296
+german,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2711393627669989,0.37133999440697296
+german,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.24333333333333335,0.37143635782639095
+german,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.27313941535530023,0.37143635782639095
+german,1,classical,"AdaBoost (stumps, T=100)",0.24333333333333335,
+german,1,classical,random forest (200),0.25666666666666665,
+german,1,classical,gradient boosting (hist),0.25333333333333335,
+german,1,classical,stacking (ours),0.25,
+german,1,classical,logistic regression,0.22666666666666666,
+german,1,PAC-Bayes,"stumps, bound A (vote)",0.2966666666666667,0.3805046766552009
+german,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.31042591494211236,0.3805046766552009
+german,1,PAC-Bayes,"stumps, bound B (vote)",0.2966666666666667,0.38046535632806366
+german,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.3091042903239117,0.38046535632806366
+german,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.23666666666666666,0.4245417197619462
+german,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.3043750487474987,0.4245417197619462
+german,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.23666666666666666,0.42385402555225593
+german,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.29940011357218477,0.42385402555225593
+german,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24333333333333335,0.37432046636843685
+german,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2812544101523572,0.37432046636843685
+german,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.24,0.37439829977913613
+german,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2835502694243158,0.37439829977913613
+german,2,classical,"AdaBoost (stumps, T=100)",0.26,
+german,2,classical,random forest (200),0.25666666666666665,
+german,2,classical,gradient boosting (hist),0.24333333333333335,
+german,2,classical,stacking (ours),0.24666666666666667,
+german,2,classical,logistic regression,0.24,
+german,2,PAC-Bayes,"stumps, bound A (vote)",0.31,0.3783909194729104
+german,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.3115863185996819,0.3783909194729104
+german,2,PAC-Bayes,"stumps, bound B (vote)",0.31,0.37838772968328704
+german,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.3103165227388559,0.37838772968328704
+german,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.25333333333333335,0.41574587695854665
+german,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.31602106917988415,0.41574587695854665
+german,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.24666666666666667,0.4151044548522777
+german,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.31166030239957354,0.4151044548522777
+german,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.25,0.36437275770580146
+german,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2875730161963812,0.36437275770580146
+german,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.25333333333333335,0.36445259756441695
+german,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2893331186528212,0.36445259756441695
+german,3,classical,"AdaBoost (stumps, T=100)",0.23333333333333334,
+german,3,classical,random forest (200),0.26,
+german,3,classical,gradient boosting (hist),0.24333333333333335,
+german,3,classical,stacking (ours),0.25,
+german,3,classical,logistic regression,0.23666666666666666,
+german,3,PAC-Bayes,"stumps, bound A (vote)",0.29333333333333333,0.3803759613944019
+german,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.3071375511421004,0.3803759613944019
+german,3,PAC-Bayes,"stumps, bound B (vote)",0.29333333333333333,0.3803651938871457
+german,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.30521177452692927,0.3803651938871457
+german,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.22666666666666666,0.4118406059320063
+german,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.3059364284586642,0.4118406059320063
+german,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.22333333333333333,0.4109371158940364
+german,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.30036207469464105,0.4109371158940364
+german,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24333333333333335,0.36326899418607106
+german,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.29217862061339284,0.36326899418607106
+german,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.24,0.36339391154529055
+german,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2943268069471838,0.36339391154529055
+german,4,classical,"AdaBoost (stumps, T=100)",0.25666666666666665,
+german,4,classical,random forest (200),0.24,
+german,4,classical,gradient boosting (hist),0.26,
+german,4,classical,stacking (ours),0.23,
+german,4,classical,logistic regression,0.26666666666666666,
+german,4,PAC-Bayes,"stumps, bound A (vote)",0.2966666666666667,0.36882951663529073
+german,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.29676465713244815,0.36882951663529073
+german,4,PAC-Bayes,"stumps, bound B (vote)",0.2966666666666667,0.3689211958012572
+german,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.2966666666667117,0.3689211958012572
+german,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.25333333333333335,0.4280128149758179
+german,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.3057213326827508,0.4280128149758179
+german,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.25666666666666665,0.4271799607097896
+german,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2996115972789307,0.4271799607097896
+german,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.27,0.37741476914798444
+german,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.28502537450486165,0.37741476914798444
+german,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2633333333333333,0.3774966070906184
+german,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.28748404923160764,0.3774966070906184
+german,5,classical,"AdaBoost (stumps, T=100)",0.2866666666666667,
+german,5,classical,random forest (200),0.24333333333333335,
+german,5,classical,gradient boosting (hist),0.2633333333333333,
+german,5,classical,stacking (ours),0.25333333333333335,
+german,5,classical,logistic regression,0.2733333333333333,
+german,5,PAC-Bayes,"stumps, bound A (vote)",0.30333333333333334,0.38181118279274234
+german,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.3314532650474207,0.38181118279274234
+german,5,PAC-Bayes,"stumps, bound B (vote)",0.3,0.3817659994999213
+german,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.32320963021206506,0.3817659994999213
+german,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2733333333333333,0.41764793389037175
+german,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.32009118484180576,0.41764793389037175
+german,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.26666666666666666,0.41691586879636783
+german,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.3151970380024367,0.41691586879636783
+german,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.27666666666666667,0.36836012291435777
+german,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.29937000186537677,0.36836012291435777
+german,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.27666666666666667,0.36846470881336385
+german,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.3015615572020492,0.36846470881336385
+german,6,classical,"AdaBoost (stumps, T=100)",0.22666666666666666,
+german,6,classical,random forest (200),0.23333333333333334,
+german,6,classical,gradient boosting (hist),0.22666666666666666,
+german,6,classical,stacking (ours),0.23,
+german,6,classical,logistic regression,0.23333333333333334,
+german,6,PAC-Bayes,"stumps, bound A (vote)",0.3,0.37798335759659885
+german,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.29621599263288095,0.37798335759659885
+german,6,PAC-Bayes,"stumps, bound B (vote)",0.3,0.3779942013729995
+german,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.2961815323879692,0.3779942013729995
+german,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.21,0.4201230064948362
+german,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.29774087582659015,0.4201230064948362
+german,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.21,0.41939056758853427
+german,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.29187858101969577,0.41939056758853427
+german,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.19666666666666666,0.3725940441211907
+german,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.27684772320138135,0.3725940441211907
+german,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.19666666666666666,0.3726904001505814
+german,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.27949806321772697,0.3726904001505814
+german,7,classical,"AdaBoost (stumps, T=100)",0.24333333333333335,
+german,7,classical,random forest (200),0.22666666666666666,
+german,7,classical,gradient boosting (hist),0.22,
+german,7,classical,stacking (ours),0.23333333333333334,
+german,7,classical,logistic regression,0.23333333333333334,
+german,7,PAC-Bayes,"stumps, bound A (vote)",0.28,0.38097005311238047
+german,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.29152912451669055,0.38097005311238047
+german,7,PAC-Bayes,"stumps, bound B (vote)",0.28,0.380937548465152
+german,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.2931713884187787,0.380937548465152
+german,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.25666666666666665,0.4205467795393886
+german,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.302032557438809,0.4205467795393886
+german,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.25,0.4198041319780072
+german,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.29605265762797367,0.4198041319780072
+german,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.24,0.37841742503725734
+german,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.28008053753132295,0.37841742503725734
+german,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.23333333333333334,0.3785260606668965
+german,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.28214114866357703,0.3785260606668965
+german,8,classical,"AdaBoost (stumps, T=100)",0.26666666666666666,
+german,8,classical,random forest (200),0.24,
+german,8,classical,gradient boosting (hist),0.22666666666666666,
+german,8,classical,stacking (ours),0.23333333333333334,
+german,8,classical,logistic regression,0.22333333333333333,
+german,8,PAC-Bayes,"stumps, bound A (vote)",0.29333333333333333,0.37200886728809046
+german,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.29504221546860404,0.37200886728809046
+german,8,PAC-Bayes,"stumps, bound B (vote)",0.29333333333333333,0.37265559574714124
+german,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.2933334159871597,0.37265559574714124
+german,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.27666666666666667,0.40457623511710084
+german,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.32525249848821225,0.40457623511710084
+german,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.27666666666666667,0.4038295157288544
+german,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.32050923358685485,0.4038295157288544
+german,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.2633333333333333,0.3583281631831973
+german,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2980549596046506,0.3583281631831973
+german,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.2633333333333333,0.3584588222768398
+german,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2996457904876549,0.3584588222768398
+german,9,classical,"AdaBoost (stumps, T=100)",0.24333333333333335,
+german,9,classical,random forest (200),0.23,
+german,9,classical,gradient boosting (hist),0.25,
+german,9,classical,stacking (ours),0.24333333333333335,
+german,9,classical,logistic regression,0.23,
+german,9,PAC-Bayes,"stumps, bound A (vote)",0.3333333333333333,0.3757779758580308
+german,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.32724376318340265,0.3757779758580308
+german,9,PAC-Bayes,"stumps, bound B (vote)",0.3333333333333333,0.3767425138023494
+german,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.3333325906083417,0.3767425138023494
+german,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2633333333333333,0.41840871136042884
+german,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.3091524403461938,0.41840871136042884
+german,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.26,0.4176923910413401
+german,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.30439249737341223,0.4176923910413401
+german,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.25666666666666665,0.3734646633562958
+german,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2844066883575792,0.3734646633562958
+german,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.25333333333333335,0.3735653555592052
+german,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.28593303765400513,0.3735653555592052
+heart,0,classical,"AdaBoost (stumps, T=100)",0.2222222222222222,
+heart,0,classical,random forest (200),0.2345679012345679,
+heart,0,classical,gradient boosting (hist),0.19753086419753085,
+heart,0,classical,stacking (ours),0.20987654320987653,
+heart,0,classical,logistic regression,0.20987654320987653,
+heart,0,PAC-Bayes,"stumps, bound A (vote)",0.2716049382716049,0.38201941168685355
+heart,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.2693466711225948,0.38201941168685355
+heart,0,PAC-Bayes,"stumps, bound B (vote)",0.2716049382716049,0.3820528738954224
+heart,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.268644582297235,0.3820528738954224
+heart,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.18518518518518517,0.3894307402345488
+heart,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22265675572694016,0.3894307402345488
+heart,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.18518518518518517,0.3894892466587979
+heart,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22292053533890824,0.3894892466587979
+heart,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.18518518518518517,0.33234008312539526
+heart,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2123869515775725,0.33234008312539526
+heart,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.19753086419753085,0.33290280495258806
+heart,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21538681187269987,0.33290280495258806
+heart,1,classical,"AdaBoost (stumps, T=100)",0.14814814814814814,
+heart,1,classical,random forest (200),0.09876543209876543,
+heart,1,classical,gradient boosting (hist),0.12345679012345678,
+heart,1,classical,stacking (ours),0.16049382716049382,
+heart,1,classical,logistic regression,0.1728395061728395,
+heart,1,PAC-Bayes,"stumps, bound A (vote)",0.2716049382716049,0.39809646916337055
+heart,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.27114912728206336,0.39809646916337055
+heart,1,PAC-Bayes,"stumps, bound B (vote)",0.2716049382716049,0.3981047802826287
+heart,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.27087985526522024,0.3981047802826287
+heart,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12345679012345678,0.41096167228658464
+heart,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.20109871294103143,0.41096167228658464
+heart,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12345679012345678,0.41101257853542317
+heart,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.20146905959265116,0.41101257853542317
+heart,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.13580246913580246,0.3530228586613714
+heart,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1763194756162123,0.3530228586613714
+heart,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14814814814814814,0.35342966249751123
+heart,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1799471292543352,0.35342966249751123
+heart,2,classical,"AdaBoost (stumps, T=100)",0.2839506172839506,
+heart,2,classical,random forest (200),0.20987654320987653,
+heart,2,classical,gradient boosting (hist),0.24691358024691357,
+heart,2,classical,stacking (ours),0.19753086419753085,
+heart,2,classical,logistic regression,0.18518518518518517,
+heart,2,PAC-Bayes,"stumps, bound A (vote)",0.24691358024691357,0.40783227243817965
+heart,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.26377355173256306,0.40783227243817965
+heart,2,PAC-Bayes,"stumps, bound B (vote)",0.24691358024691357,0.4078645671016675
+heart,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.26412167307584267,0.4078645671016675
+heart,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.18518518518518517,0.3863219953607263
+heart,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.23263600093849998,0.3863219953607263
+heart,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.18518518518518517,0.3862342879440052
+heart,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.23233301012282875,0.3862342879440052
+heart,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.20987654320987653,0.3404445963591202
+heart,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2153957849801452,0.3404445963591202
+heart,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.20987654320987653,0.3412059292833813
+heart,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2175991430124009,0.3412059292833813
+heart,3,classical,"AdaBoost (stumps, T=100)",0.13580246913580246,
+heart,3,classical,random forest (200),0.16049382716049382,
+heart,3,classical,gradient boosting (hist),0.18518518518518517,
+heart,3,classical,stacking (ours),0.13580246913580246,
+heart,3,classical,logistic regression,0.16049382716049382,
+heart,3,PAC-Bayes,"stumps, bound A (vote)",0.2962962962962963,0.40511187768356977
+heart,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.29168722490946436,0.40511187768356977
+heart,3,PAC-Bayes,"stumps, bound B (vote)",0.2962962962962963,0.40513332658071305
+heart,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.289736411734587,0.40513332658071305
+heart,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12345679012345678,0.41770440103479356
+heart,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.19600290410516674,0.41770440103479356
+heart,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12345679012345678,0.4178451543061101
+heart,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19739493747145803,0.4178451543061101
+heart,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1111111111111111,0.3566376796907874
+heart,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.17014803539621706,0.3566376796907874
+heart,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1111111111111111,0.3567906308515326
+heart,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.17524356468702884,0.3567906308515326
+heart,4,classical,"AdaBoost (stumps, T=100)",0.14814814814814814,
+heart,4,classical,random forest (200),0.13580246913580246,
+heart,4,classical,gradient boosting (hist),0.1728395061728395,
+heart,4,classical,stacking (ours),0.06172839506172839,
+heart,4,classical,logistic regression,0.07407407407407407,
+heart,4,PAC-Bayes,"stumps, bound A (vote)",0.2716049382716049,0.40122243971610494
+heart,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.2636931206233122,0.40122243971610494
+heart,4,PAC-Bayes,"stumps, bound B (vote)",0.2716049382716049,0.4012499321931921
+heart,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.2628879960364548,0.4012499321931921
+heart,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08641975308641975,0.41431128364178144
+heart,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.18233799010946677,0.41431128364178144
+heart,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08641975308641975,0.4144624195402765
+heart,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1839426748816733,0.4144624195402765
+heart,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.07407407407407407,0.36166412209569104
+heart,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1486864358152395,0.36166412209569104
+heart,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.07407407407407407,0.36185472151196046
+heart,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1533999815619867,0.36185472151196046
+heart,5,classical,"AdaBoost (stumps, T=100)",0.2222222222222222,
+heart,5,classical,random forest (200),0.19753086419753085,
+heart,5,classical,gradient boosting (hist),0.2839506172839506,
+heart,5,classical,stacking (ours),0.25925925925925924,
+heart,5,classical,logistic regression,0.20987654320987653,
+heart,5,PAC-Bayes,"stumps, bound A (vote)",0.2716049382716049,0.4083305748743637
+heart,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.28599589253910546,0.4083305748743637
+heart,5,PAC-Bayes,"stumps, bound B (vote)",0.2716049382716049,0.4083730457923735
+heart,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.2887218743058143,0.4083730457923735
+heart,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.2345679012345679,0.3783234111121029
+heart,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.28018275807666826,0.3783234111121029
+heart,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.2345679012345679,0.3784594440984658
+heart,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2807356517183063,0.3784594440984658
+heart,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.19753086419753085,0.31812059249075186
+heart,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2472450429179419,0.31812059249075186
+heart,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.18518518518518517,0.31868633099663224
+heart,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2490248477386653,0.31868633099663224
+heart,6,classical,"AdaBoost (stumps, T=100)",0.18518518518518517,
+heart,6,classical,random forest (200),0.18518518518518517,
+heart,6,classical,gradient boosting (hist),0.18518518518518517,
+heart,6,classical,stacking (ours),0.19753086419753085,
+heart,6,classical,logistic regression,0.20987654320987653,
+heart,6,PAC-Bayes,"stumps, bound A (vote)",0.2345679012345679,0.4125410401099205
+heart,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.24706449000870315,0.4125410401099205
+heart,6,PAC-Bayes,"stumps, bound B (vote)",0.2345679012345679,0.4125644465785637
+heart,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.24731268383726368,0.4125644465785637
+heart,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16049382716049382,0.3854079878583049
+heart,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22506438210713642,0.3854079878583049
+heart,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16049382716049382,0.38538716474672563
+heart,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2249887661752205,0.38538716474672563
+heart,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1728395061728395,0.3331890023480787
+heart,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.20899496224849232,0.3331890023480787
+heart,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1728395061728395,0.333842487850634
+heart,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21130200844979766,0.333842487850634
+heart,7,classical,"AdaBoost (stumps, T=100)",0.19753086419753085,
+heart,7,classical,random forest (200),0.19753086419753085,
+heart,7,classical,gradient boosting (hist),0.16049382716049382,
+heart,7,classical,stacking (ours),0.1728395061728395,
+heart,7,classical,logistic regression,0.1728395061728395,
+heart,7,PAC-Bayes,"stumps, bound A (vote)",0.2716049382716049,0.39666548308128335
+heart,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.27212694629391715,0.39666548308128335
+heart,7,PAC-Bayes,"stumps, bound B (vote)",0.2716049382716049,0.396712410867022
+heart,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.27244373089563906,0.396712410867022
+heart,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1728395061728395,0.406638933758584
+heart,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2387445895176369,0.406638933758584
+heart,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1728395061728395,0.40678744277479295
+heart,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.24012292676322383,0.40678744277479295
+heart,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.13580246913580246,0.35057945409888813
+heart,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.20787760784563572,0.35057945409888813
+heart,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14814814814814814,0.3509069416811502
+heart,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21298438871922865,0.3509069416811502
+heart,8,classical,"AdaBoost (stumps, T=100)",0.2345679012345679,
+heart,8,classical,random forest (200),0.14814814814814814,
+heart,8,classical,gradient boosting (hist),0.2222222222222222,
+heart,8,classical,stacking (ours),0.14814814814814814,
+heart,8,classical,logistic regression,0.14814814814814814,
+heart,8,PAC-Bayes,"stumps, bound A (vote)",0.2222222222222222,0.40852547099385367
+heart,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.24398623827185376,0.40852547099385367
+heart,8,PAC-Bayes,"stumps, bound B (vote)",0.2222222222222222,0.4085624274911048
+heart,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.24749326046046868,0.4085624274911048
+heart,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.14814814814814814,0.39520287094561446
+heart,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2283436890439498,0.39520287094561446
+heart,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.14814814814814814,0.3953617325598759
+heart,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22942538758379338,0.3953617325598759
+heart,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.13580246913580246,0.3363955516991971
+heart,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.194178674956389,0.3363955516991971
+heart,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14814814814814814,0.3368654441353544
+heart,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.19697842548421649,0.3368654441353544
+heart,9,classical,"AdaBoost (stumps, T=100)",0.20987654320987653,
+heart,9,classical,random forest (200),0.16049382716049382,
+heart,9,classical,gradient boosting (hist),0.2222222222222222,
+heart,9,classical,stacking (ours),0.1111111111111111,
+heart,9,classical,logistic regression,0.13580246913580246,
+heart,9,PAC-Bayes,"stumps, bound A (vote)",0.35802469135802467,0.3738320492113546
+heart,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.35793779368907874,0.3738320492113546
+heart,9,PAC-Bayes,"stumps, bound B (vote)",0.35802469135802467,0.37383398596090933
+heart,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.35802182970902435,0.37383398596090933
+heart,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1111111111111111,0.40086521099572103
+heart,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2111341415195437,0.40086521099572103
+heart,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1111111111111111,0.4009944762842267
+heart,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.21211837688271798,0.4009944762842267
+heart,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1111111111111111,0.34537782912487447
+heart,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1816702117437824,0.34537782912487447
+heart,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1111111111111111,0.3457318298068685
+heart,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.18610875811021205,0.3457318298068685
+iono,0,classical,"AdaBoost (stumps, T=100)",0.05660377358490566,
+iono,0,classical,random forest (200),0.05660377358490566,
+iono,0,classical,gradient boosting (hist),0.0660377358490566,
+iono,0,classical,stacking (ours),0.03773584905660377,
+iono,0,classical,logistic regression,0.12264150943396226,
+iono,0,PAC-Bayes,"stumps, bound A (vote)",0.16037735849056603,0.32706206466064164
+iono,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.18096099208985897,0.32706206466064164
+iono,0,PAC-Bayes,"stumps, bound B (vote)",0.16037735849056603,0.32699817243395846
+iono,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.17923347332711537,0.32699817243395846
+iono,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.11320754716981132,0.3970617286236688
+iono,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.20635818023648253,0.3970617286236688
+iono,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.09433962264150944,0.3940305249876103
+iono,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19324938047531304,0.3940305249876103
+iono,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.09433962264150944,0.3164945491593326
+iono,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.16820431945978562,0.3164945491593326
+iono,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.09433962264150944,0.3168253368548978
+iono,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.16995539982806665,0.3168253368548978
+iono,1,classical,"AdaBoost (stumps, T=100)",0.09433962264150944,
+iono,1,classical,random forest (200),0.0660377358490566,
+iono,1,classical,gradient boosting (hist),0.10377358490566038,
+iono,1,classical,stacking (ours),0.07547169811320754,
+iono,1,classical,logistic regression,0.12264150943396226,
+iono,1,PAC-Bayes,"stumps, bound A (vote)",0.18867924528301888,0.32777790013615526
+iono,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.18870648518174388,0.32777790013615526
+iono,1,PAC-Bayes,"stumps, bound B (vote)",0.18867924528301888,0.32768771687534975
+iono,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.18872165057735069,0.32768771687534975
+iono,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1509433962264151,0.37638219189838573
+iono,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2183320329039827,0.37638219189838573
+iono,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.14150943396226415,0.371522410801069
+iono,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.20456521946111128,0.371522410801069
+iono,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14150943396226415,0.2928889785602723
+iono,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.18215963369921065,0.2928889785602723
+iono,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14150943396226415,0.29311331449333483
+iono,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1827295189404317,0.29311331449333483
+iono,2,classical,"AdaBoost (stumps, T=100)",0.08490566037735849,
+iono,2,classical,random forest (200),0.09433962264150944,
+iono,2,classical,gradient boosting (hist),0.1320754716981132,
+iono,2,classical,stacking (ours),0.08490566037735849,
+iono,2,classical,logistic regression,0.11320754716981132,
+iono,2,PAC-Bayes,"stumps, bound A (vote)",0.16037735849056603,0.3229557316906732
+iono,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.21715832401932605,0.3229557316906732
+iono,2,PAC-Bayes,"stumps, bound B (vote)",0.16037735849056603,0.32292677494552413
+iono,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.2176533242084811,0.32292677494552413
+iono,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12264150943396226,0.3926594337559831
+iono,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21281028169652505,0.3926594337559831
+iono,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12264150943396226,0.38889439365626827
+iono,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19957572699335255,0.38889439365626827
+iono,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1320754716981132,0.3089662126264869
+iono,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.18529767997405272,0.3089662126264869
+iono,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1320754716981132,0.3092144361984969
+iono,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.18634362411921818,0.3092144361984969
+iono,3,classical,"AdaBoost (stumps, T=100)",0.05660377358490566,
+iono,3,classical,random forest (200),0.0660377358490566,
+iono,3,classical,gradient boosting (hist),0.0660377358490566,
+iono,3,classical,stacking (ours),0.0660377358490566,
+iono,3,classical,logistic regression,0.09433962264150944,
+iono,3,PAC-Bayes,"stumps, bound A (vote)",0.18867924528301888,0.29195008577495496
+iono,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.18894616160048486,0.29195008577495496
+iono,3,PAC-Bayes,"stumps, bound B (vote)",0.18867924528301888,0.29185902778552475
+iono,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.18885963252893825,0.29185902778552475
+iono,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16981132075471697,0.3568100703607576
+iono,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22502651842437005,0.3568100703607576
+iono,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16981132075471697,0.3526174285475815
+iono,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.211399041054362,0.3526174285475815
+iono,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1320754716981132,0.2908500568574458
+iono,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.18363229588444638,0.2908500568574458
+iono,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1320754716981132,0.2906274796268837
+iono,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.18300668807566112,0.2906274796268837
+iono,4,classical,"AdaBoost (stumps, T=100)",0.11320754716981132,
+iono,4,classical,random forest (200),0.08490566037735849,
+iono,4,classical,gradient boosting (hist),0.08490566037735849,
+iono,4,classical,stacking (ours),0.08490566037735849,
+iono,4,classical,logistic regression,0.1320754716981132,
+iono,4,PAC-Bayes,"stumps, bound A (vote)",0.20754716981132076,0.2902981214475867
+iono,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.20720510857467497,0.2902981214475867
+iono,4,PAC-Bayes,"stumps, bound B (vote)",0.20754716981132076,0.2902314847461553
+iono,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.2073333220541788,0.2902314847461553
+iono,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16037735849056603,0.3625767701616355
+iono,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.23817197114961225,0.3625767701616355
+iono,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16037735849056603,0.3582384526497146
+iono,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22601103670353112,0.3582384526497146
+iono,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14150943396226415,0.2830715258817224
+iono,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.19555543891147278,0.2830715258817224
+iono,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14150943396226415,0.2832790512608347
+iono,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1959662577655742,0.2832790512608347
+iono,5,classical,"AdaBoost (stumps, T=100)",0.09433962264150944,
+iono,5,classical,random forest (200),0.04716981132075472,
+iono,5,classical,gradient boosting (hist),0.11320754716981132,
+iono,5,classical,stacking (ours),0.07547169811320754,
+iono,5,classical,logistic regression,0.10377358490566038,
+iono,5,PAC-Bayes,"stumps, bound A (vote)",0.16981132075471697,0.3202090918097606
+iono,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.17274411756608957,0.3202090918097606
+iono,5,PAC-Bayes,"stumps, bound B (vote)",0.16981132075471697,0.3201228745355135
+iono,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.17253720252428958,0.3201228745355135
+iono,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.12264150943396226,0.3879633950953764
+iono,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21419434920938613,0.3879633950953764
+iono,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12264150943396226,0.3840512026855084
+iono,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19947300639123378,0.3840512026855084
+iono,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.11320754716981132,0.3166032429845384
+iono,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1766889303912876,0.3166032429845384
+iono,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.11320754716981132,0.31659153516596866
+iono,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.17664214721615012,0.31659153516596866
+iono,6,classical,"AdaBoost (stumps, T=100)",0.04716981132075472,
+iono,6,classical,random forest (200),0.04716981132075472,
+iono,6,classical,gradient boosting (hist),0.04716981132075472,
+iono,6,classical,stacking (ours),0.03773584905660377,
+iono,6,classical,logistic regression,0.10377358490566038,
+iono,6,PAC-Bayes,"stumps, bound A (vote)",0.14150943396226415,0.3219441308858838
+iono,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.1471585755755084,0.3219441308858838
+iono,6,PAC-Bayes,"stumps, bound B (vote)",0.14150943396226415,0.3217607067763783
+iono,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.1458871793962066,0.3217607067763783
+iono,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.11320754716981132,0.3945886144431027
+iono,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.19902416467133233,0.3945886144431027
+iono,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.11320754716981132,0.3915001129257988
+iono,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.18462607710867618,0.3915001129257988
+iono,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.12264150943396226,0.335285834830764
+iono,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.17743956295268465,0.335285834830764
+iono,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.12264150943396226,0.33514092884734714
+iono,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.17658921943325967,0.33514092884734714
+iono,7,classical,"AdaBoost (stumps, T=100)",0.08490566037735849,
+iono,7,classical,random forest (200),0.07547169811320754,
+iono,7,classical,gradient boosting (hist),0.10377358490566038,
+iono,7,classical,stacking (ours),0.05660377358490566,
+iono,7,classical,logistic regression,0.11320754716981132,
+iono,7,PAC-Bayes,"stumps, bound A (vote)",0.1509433962264151,0.3100446266595002
+iono,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.17031291811962906,0.3100446266595002
+iono,7,PAC-Bayes,"stumps, bound B (vote)",0.1509433962264151,0.30998535843890423
+iono,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.16997581081200086,0.30998535843890423
+iono,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.14150943396226415,0.36938165526428
+iono,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2192921785379678,0.36938165526428
+iono,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1320754716981132,0.3652528242669918
+iono,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.20380645057513697,0.3652528242669918
+iono,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.10377358490566038,0.2948790143379766
+iono,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.17297867661569993,0.2948790143379766
+iono,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.10377358490566038,0.29486829742177634
+iono,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1729404945270984,0.29486829742177634
+iono,8,classical,"AdaBoost (stumps, T=100)",0.11320754716981132,
+iono,8,classical,random forest (200),0.07547169811320754,
+iono,8,classical,gradient boosting (hist),0.08490566037735849,
+iono,8,classical,stacking (ours),0.09433962264150944,
+iono,8,classical,logistic regression,0.14150943396226415,
+iono,8,PAC-Bayes,"stumps, bound A (vote)",0.2169811320754717,0.3153076375672334
+iono,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.21769852126270425,0.3153076375672334
+iono,8,PAC-Bayes,"stumps, bound B (vote)",0.2169811320754717,0.31517324108002687
+iono,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.2175991958176266,0.31517324108002687
+iono,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1320754716981132,0.38198760138211896
+iono,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.20982417606711698,0.38198760138211896
+iono,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.12264150943396226,0.37806192121059656
+iono,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.19701726670093783,0.37806192121059656
+iono,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14150943396226415,0.3032233991360484
+iono,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1841451129750909,0.3032233991360484
+iono,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14150943396226415,0.30340107391633325
+iono,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1848874849980048,0.30340107391633325
+iono,9,classical,"AdaBoost (stumps, T=100)",0.0660377358490566,
+iono,9,classical,random forest (200),0.0660377358490566,
+iono,9,classical,gradient boosting (hist),0.0660377358490566,
+iono,9,classical,stacking (ours),0.08490566037735849,
+iono,9,classical,logistic regression,0.12264150943396226,
+iono,9,PAC-Bayes,"stumps, bound A (vote)",0.16981132075471697,0.3211857116380052
+iono,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.17456364295700283,0.3211857116380052
+iono,9,PAC-Bayes,"stumps, bound B (vote)",0.16981132075471697,0.32108285090173044
+iono,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.17402365550666785,0.32108285090173044
+iono,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.14150943396226415,0.3861436812105052
+iono,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21625318022142181,0.3861436812105052
+iono,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.14150943396226415,0.3830293981270384
+iono,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.20227512908535736,0.3830293981270384
+iono,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14150943396226415,0.31254356457367616
+iono,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.18516726567103198,0.31254356457367616
+iono,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14150943396226415,0.312825892137867
+iono,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1866359297741958,0.312825892137867
+spambase,0,classical,"AdaBoost (stumps, T=100)",0.06666666666666667,
+spambase,0,classical,random forest (200),0.05434782608695652,
+spambase,0,classical,gradient boosting (hist),0.050724637681159424,
+spambase,0,classical,stacking (ours),0.06521739130434782,
+spambase,0,classical,logistic regression,0.08478260869565217,
+spambase,0,PAC-Bayes,"stumps, bound A (vote)",0.20434782608695654,0.2534777440877277
+spambase,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.2042290649595181,0.2534777440877277
+spambase,0,PAC-Bayes,"stumps, bound B (vote)",0.20434782608695654,0.2534957503675516
+spambase,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.20434782608998486,0.2534957503675516
+spambase,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.09057971014492754,0.1841646623407208
+spambase,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.13256733797847875,0.1841646623407208
+spambase,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.09130434782608696,0.18460928747501776
+spambase,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.13379577200386955,0.18460928747501776
+spambase,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.0927536231884058,0.1441642221327279
+spambase,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.12623258430253084,0.1441642221327279
+spambase,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.0927536231884058,0.14386911960289311
+spambase,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.1255556476770049,0.14386911960289311
+spambase,1,classical,"AdaBoost (stumps, T=100)",0.06884057971014493,
+spambase,1,classical,random forest (200),0.04710144927536232,
+spambase,1,classical,gradient boosting (hist),0.04855072463768116,
+spambase,1,classical,stacking (ours),0.060144927536231886,
+spambase,1,classical,logistic regression,0.06956521739130435,
+spambase,1,PAC-Bayes,"stumps, bound A (vote)",0.20144927536231885,0.25016446416611127
+spambase,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.2016801086624479,0.25016446416611127
+spambase,1,PAC-Bayes,"stumps, bound B (vote)",0.20144927536231885,0.2501636470183025
+spambase,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.20144927537152024,0.2501636470183025
+spambase,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.07173913043478261,0.19143993942435852
+spambase,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.11143288789098985,0.19143993942435852
+spambase,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.07173913043478261,0.19169312073154096
+spambase,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.11215676473881867,0.19169312073154096
+spambase,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.06956521739130435,0.14802001934881276
+spambase,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.10262702083239088,0.14802001934881276
+spambase,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.06956521739130435,0.1477700042843558
+spambase,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.10203060488916044,0.1477700042843558
+spambase,2,classical,"AdaBoost (stumps, T=100)",0.05434782608695652,
+spambase,2,classical,random forest (200),0.04855072463768116,
+spambase,2,classical,gradient boosting (hist),0.0463768115942029,
+spambase,2,classical,stacking (ours),0.058695652173913045,
+spambase,2,classical,logistic regression,0.07318840579710145,
+spambase,2,PAC-Bayes,"stumps, bound A (vote)",0.20869565217391303,0.24892481203749836
+spambase,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.20875387813076987,0.24892481203749836
+spambase,2,PAC-Bayes,"stumps, bound B (vote)",0.20869565217391303,0.2489199404099644
+spambase,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.20869565217591526,0.2489199404099644
+spambase,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.0782608695652174,0.18774871526240364
+spambase,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.11878374833728225,0.18774871526240364
+spambase,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.0782608695652174,0.18807522570060814
+spambase,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1196824110339155,0.18807522570060814
+spambase,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08115942028985507,0.14693419594919627
+spambase,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11218071826149138,0.14693419594919627
+spambase,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08115942028985507,0.14657299076826766
+spambase,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11134505631136274,0.14657299076826766
+spambase,3,classical,"AdaBoost (stumps, T=100)",0.06739130434782609,
+spambase,3,classical,random forest (200),0.06159420289855073,
+spambase,3,classical,gradient boosting (hist),0.05144927536231884,
+spambase,3,classical,stacking (ours),0.06521739130434782,
+spambase,3,classical,logistic regression,0.08550724637681159,
+spambase,3,PAC-Bayes,"stumps, bound A (vote)",0.20579710144927535,0.2535849958958264
+spambase,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.2106426685369371,0.2535849958958264
+spambase,3,PAC-Bayes,"stumps, bound B (vote)",0.20579710144927535,0.2535870705418103
+spambase,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.21068436751368114,0.2535870705418103
+spambase,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.0891304347826087,0.18550151236119303
+spambase,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.12721809237494863,0.18550151236119303
+spambase,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.0891304347826087,0.18577813737861376
+spambase,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1279050440180074,0.18577813737861376
+spambase,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08550724637681159,0.1417937185270965
+spambase,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11902302663248224,0.1417937185270965
+spambase,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08478260869565217,0.14154782987948442
+spambase,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11849855844842153,0.14154782987948442
+spambase,4,classical,"AdaBoost (stumps, T=100)",0.06521739130434782,
+spambase,4,classical,random forest (200),0.04782608695652174,
+spambase,4,classical,gradient boosting (hist),0.04710144927536232,
+spambase,4,classical,stacking (ours),0.06304347826086956,
+spambase,4,classical,logistic regression,0.07173913043478261,
+spambase,4,PAC-Bayes,"stumps, bound A (vote)",0.20652173913043478,0.2572476191937091
+spambase,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.2024715686099952,0.2572476191937091
+spambase,4,PAC-Bayes,"stumps, bound B (vote)",0.20652173913043478,0.2573423613861664
+spambase,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.20217545480476146,0.2573423613861664
+spambase,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08478260869565217,0.19758939730816633
+spambase,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.12705654575756178,0.19758939730816633
+spambase,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08550724637681159,0.19779213762032896
+spambase,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.12767978744444888,0.19779213762032896
+spambase,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08550724637681159,0.1533765762797544
+spambase,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.12017243329069431,0.1533765762797544
+spambase,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08478260869565217,0.1530291563383876
+spambase,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11923780214665579,0.1530291563383876
+spambase,5,classical,"AdaBoost (stumps, T=100)",0.07101449275362319,
+spambase,5,classical,random forest (200),0.05434782608695652,
+spambase,5,classical,gradient boosting (hist),0.04710144927536232,
+spambase,5,classical,stacking (ours),0.06739130434782609,
+spambase,5,classical,logistic regression,0.08333333333333333,
+spambase,5,PAC-Bayes,"stumps, bound A (vote)",0.21666666666666667,0.24887477215407733
+spambase,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.2165273318675776,0.24887477215407733
+spambase,5,PAC-Bayes,"stumps, bound B (vote)",0.21666666666666667,0.24891086691502057
+spambase,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.21666666666751136,0.24891086691502057
+spambase,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08333333333333333,0.1973442790952637
+spambase,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.1261509669154704,0.1973442790952637
+spambase,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08333333333333333,0.19745239356446595
+spambase,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.1264435021780769,0.19745239356446595
+spambase,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08550724637681159,0.15275178982950094
+spambase,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11906050799167212,0.15275178982950094
+spambase,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08478260869565217,0.15236079505073205
+spambase,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11813486996651833,0.15236079505073205
+spambase,6,classical,"AdaBoost (stumps, T=100)",0.06159420289855073,
+spambase,6,classical,random forest (200),0.04710144927536232,
+spambase,6,classical,gradient boosting (hist),0.042028985507246375,
+spambase,6,classical,stacking (ours),0.060144927536231886,
+spambase,6,classical,logistic regression,0.07608695652173914,
+spambase,6,PAC-Bayes,"stumps, bound A (vote)",0.22391304347826088,0.2566969464069839
+spambase,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.22098683695800364,0.2566969464069839
+spambase,6,PAC-Bayes,"stumps, bound B (vote)",0.22391304347826088,0.256719660508422
+spambase,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.22100333747023848,0.256719660508422
+spambase,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08333333333333333,0.18920307743025438
+spambase,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.1225253623070342,0.18920307743025438
+spambase,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08333333333333333,0.18955641816135488
+spambase,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.12352067149493613,0.18955641816135488
+spambase,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08043478260869565,0.1472750649798253
+spambase,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11505803407584558,0.1472750649798253
+spambase,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08043478260869565,0.1470128786272486
+spambase,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11442415270090128,0.1470128786272486
+spambase,7,classical,"AdaBoost (stumps, T=100)",0.04855072463768116,
+spambase,7,classical,random forest (200),0.03985507246376811,
+spambase,7,classical,gradient boosting (hist),0.034782608695652174,
+spambase,7,classical,stacking (ours),0.0536231884057971,
+spambase,7,classical,logistic regression,0.0782608695652174,
+spambase,7,PAC-Bayes,"stumps, bound A (vote)",0.21014492753623187,0.2505613385953688
+spambase,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.21031310143682938,0.2505613385953688
+spambase,7,PAC-Bayes,"stumps, bound B (vote)",0.21014492753623187,0.2505598696289701
+spambase,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.2101449275367081,0.2505598696289701
+spambase,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.0782608695652174,0.19798597104263047
+spambase,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.12293460400282412,0.19798597104263047
+spambase,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.0782608695652174,0.19827436227990244
+spambase,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.12383045526282681,0.19827436227990244
+spambase,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.07536231884057971,0.15511104179069596
+spambase,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11455338748344557,0.15511104179069596
+spambase,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.0746376811594203,0.15475737918551177
+spambase,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11363401020664371,0.15475737918551177
+spambase,8,classical,"AdaBoost (stumps, T=100)",0.06521739130434782,
+spambase,8,classical,random forest (200),0.04710144927536232,
+spambase,8,classical,gradient boosting (hist),0.03985507246376811,
+spambase,8,classical,stacking (ours),0.0644927536231884,
+spambase,8,classical,logistic regression,0.08115942028985507,
+spambase,8,PAC-Bayes,"stumps, bound A (vote)",0.2210144927536232,0.25343528918597186
+spambase,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.22080439629107548,0.25343528918597186
+spambase,8,PAC-Bayes,"stumps, bound B (vote)",0.2210144927536232,0.253495739646472
+spambase,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.2210144946996636,0.253495739646472
+spambase,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08550724637681159,0.1925357712149824
+spambase,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.12112679422491267,0.1925357712149824
+spambase,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08550724637681159,0.19280102743892685
+spambase,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.12176424136354616,0.19280102743892685
+spambase,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08188405797101449,0.1532076505634325
+spambase,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.1124579551585064,0.1532076505634325
+spambase,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08188405797101449,0.15260829285903926
+spambase,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11134559583990908,0.15260829285903926
+spambase,9,classical,"AdaBoost (stumps, T=100)",0.07101449275362319,
+spambase,9,classical,random forest (200),0.05144927536231884,
+spambase,9,classical,gradient boosting (hist),0.05652173913043478,
+spambase,9,classical,stacking (ours),0.07608695652173914,
+spambase,9,classical,logistic regression,0.08478260869565217,
+spambase,9,PAC-Bayes,"stumps, bound A (vote)",0.21159420289855072,0.2554701918482329
+spambase,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.2122628287586064,0.2554701918482329
+spambase,9,PAC-Bayes,"stumps, bound B (vote)",0.21159420289855072,0.25554704113675786
+spambase,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.21159420958183597,0.25554704113675786
+spambase,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.08115942028985507,0.18753318722785214
+spambase,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.12419138729285517,0.18753318722785214
+spambase,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.08115942028985507,0.18774811440609035
+spambase,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.12472289506797227,0.18774811440609035
+spambase,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.08115942028985507,0.14471232702212683
+spambase,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.11707117549578357,0.14471232702212683
+spambase,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.08115942028985507,0.14433649242617438
+spambase,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.11628410102337058,0.14433649242617438
+splice,0,classical,"AdaBoost (stumps, T=100)",0.046169989506820566,
+splice,0,classical,random forest (200),0.025183630640083946,
+splice,0,classical,gradient boosting (hist),0.02833158447009444,
+splice,0,classical,stacking (ours),0.048268625393494226,
+splice,0,classical,logistic regression,0.1521511017838405,
+splice,0,PAC-Bayes,"stumps, bound A (vote)",0.229800629590766,0.2787004690540894
+splice,0,PAC-Bayes,"stumps, bound A (Gibbs)",0.229800629590766,0.2787004690540894
+splice,0,PAC-Bayes,"stumps, bound B (vote)",0.229800629590766,0.2787004690820968
+splice,0,PAC-Bayes,"stumps, bound B (Gibbs)",0.22980062964558082,0.2787004690820968
+splice,0,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16474291710388247,0.3233899827501944
+splice,0,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2166003931251228,0.3233899827501944
+splice,0,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16054564533053514,0.3239882850220603
+splice,0,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22146603210179278,0.3239882850220603
+splice,0,PAC-Bayes,"linear, bound A, prior learned (vote)",0.15949632738719832,0.2668555472387947
+splice,0,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.21026745169615,0.2668555472387947
+splice,0,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1584470094438615,0.26673202682097225
+splice,0,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.20976174724063812,0.26673202682097225
+splice,1,classical,"AdaBoost (stumps, T=100)",0.06400839454354669,
+splice,1,classical,random forest (200),0.02728226652675761,
+splice,1,classical,gradient boosting (hist),0.026232948583420776,
+splice,1,classical,stacking (ours),0.03987408184679958,
+splice,1,classical,logistic regression,0.14270724029380902,
+splice,1,PAC-Bayes,"stumps, bound A (vote)",0.2161594963273872,0.2858932492517469
+splice,1,PAC-Bayes,"stumps, bound A (Gibbs)",0.2161594963273953,0.2858932492517469
+splice,1,PAC-Bayes,"stumps, bound B (vote)",0.2161594963273872,0.28589324925174775
+splice,1,PAC-Bayes,"stumps, bound B (Gibbs)",0.21615949632738765,0.28589324925174775
+splice,1,PAC-Bayes,"linear, bound A, prior zero (vote)",0.14375655823714587,0.3263586551804233
+splice,1,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21397768431720754,0.3263586551804233
+splice,1,PAC-Bayes,"linear, bound B, prior zero (vote)",0.14480587618048268,0.32692540319429647
+splice,1,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.21933787092168044,0.32692540319429647
+splice,1,PAC-Bayes,"linear, bound A, prior learned (vote)",0.14375655823714587,0.2679968237885199
+splice,1,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.20611337540535965,0.2679968237885199
+splice,1,PAC-Bayes,"linear, bound B, prior learned (vote)",0.14375655823714587,0.2679889538362094
+splice,1,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.206075101289833,0.2679889538362094
+splice,2,classical,"AdaBoost (stumps, T=100)",0.06610703043022036,
+splice,2,classical,random forest (200),0.03147953830010493,
+splice,2,classical,gradient boosting (hist),0.03882476390346275,
+splice,2,classical,stacking (ours),0.05771248688352571,
+splice,2,classical,logistic regression,0.16054564533053514,
+splice,2,PAC-Bayes,"stumps, bound A (vote)",0.21511017838405036,0.2961136748751689
+splice,2,PAC-Bayes,"stumps, bound A (Gibbs)",0.21511017867542745,0.2961136748751689
+splice,2,PAC-Bayes,"stumps, bound B (vote)",0.21511017838405036,0.29611367488211
+splice,2,PAC-Bayes,"stumps, bound B (Gibbs)",0.21511017838405036,0.29611367488211
+splice,2,PAC-Bayes,"linear, bound A, prior zero (vote)",0.161594963273872,0.3247937624990109
+splice,2,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22286905367194748,0.3247937624990109
+splice,2,PAC-Bayes,"linear, bound B, prior zero (vote)",0.15949632738719832,0.3253794049084572
+splice,2,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22791087763050222,0.3253794049084572
+splice,2,PAC-Bayes,"linear, bound A, prior learned (vote)",0.155299055613851,0.26405793019377344
+splice,2,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2138832521374411,0.26405793019377344
+splice,2,PAC-Bayes,"linear, bound B, prior learned (vote)",0.155299055613851,0.26416721500308954
+splice,2,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21438523974709758,0.26416721500308954
+splice,3,classical,"AdaBoost (stumps, T=100)",0.06190975865687303,
+splice,3,classical,random forest (200),0.02938090241343127,
+splice,3,classical,gradient boosting (hist),0.026232948583420776,
+splice,3,classical,stacking (ours),0.046169989506820566,
+splice,3,classical,logistic regression,0.15739769150052466,
+splice,3,PAC-Bayes,"stumps, bound A (vote)",0.23714585519412382,0.27568706649542424
+splice,3,PAC-Bayes,"stumps, bound A (Gibbs)",0.23714585519412387,0.27568706649542424
+splice,3,PAC-Bayes,"stumps, bound B (vote)",0.23714585519412382,0.27568706650303054
+splice,3,PAC-Bayes,"stumps, bound B (Gibbs)",0.2371458552064031,0.27568706650303054
+splice,3,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16789087093389296,0.3177677223885091
+splice,3,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22289744219288887,0.3177677223885091
+splice,3,PAC-Bayes,"linear, bound B, prior zero (vote)",0.1689401888772298,0.3184056997623261
+splice,3,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22812498374707302,0.3184056997623261
+splice,3,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1657922350472193,0.26126275132206966
+splice,3,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2194506268299398,0.26126275132206966
+splice,3,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1657922350472193,0.26121985059039704
+splice,3,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21925052828460345,0.26121985059039704
+splice,4,classical,"AdaBoost (stumps, T=100)",0.05876180482686254,
+splice,4,classical,random forest (200),0.030430220356768102,
+splice,4,classical,gradient boosting (hist),0.024134312696747113,
+splice,4,classical,stacking (ours),0.04407135362014691,
+splice,4,classical,logistic regression,0.1458551941238195,
+splice,4,PAC-Bayes,"stumps, bound A (vote)",0.236096537250787,0.27992184127827396
+splice,4,PAC-Bayes,"stumps, bound A (Gibbs)",0.23609653725078705,0.27992184127827396
+splice,4,PAC-Bayes,"stumps, bound B (vote)",0.236096537250787,0.279921841303806
+splice,4,PAC-Bayes,"stumps, bound B (Gibbs)",0.23609653728901803,0.279921841303806
+splice,4,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16684155299055614,0.3293730959984743
+splice,4,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21750852313659716,0.3293730959984743
+splice,4,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16369359916054566,0.3299391763268239
+splice,4,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2231026949843301,0.3299391763268239
+splice,4,PAC-Bayes,"linear, bound A, prior learned (vote)",0.161594963273872,0.2685346763906259
+splice,4,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.21213549625140657,0.2685346763906259
+splice,4,PAC-Bayes,"linear, bound B, prior learned (vote)",0.161594963273872,0.26864327848491476
+splice,4,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21272220047208887,0.26864327848491476
+splice,5,classical,"AdaBoost (stumps, T=100)",0.06715634837355719,
+splice,5,classical,random forest (200),0.03252885624344176,
+splice,5,classical,gradient boosting (hist),0.026232948583420776,
+splice,5,classical,stacking (ours),0.04512067156348373,
+splice,5,classical,logistic regression,0.1584470094438615,
+splice,5,PAC-Bayes,"stumps, bound A (vote)",0.21091290661070305,0.28471729739083845
+splice,5,PAC-Bayes,"stumps, bound A (Gibbs)",0.21091290661072723,0.28471729739083845
+splice,5,PAC-Bayes,"stumps, bound B (vote)",0.21091290661070305,0.2847172973908389
+splice,5,PAC-Bayes,"stumps, bound B (Gibbs)",0.21091290661070305,0.2847172973908389
+splice,5,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1657922350472193,0.3211045371548253
+splice,5,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22159637970604232,0.3211045371548253
+splice,5,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16684155299055614,0.3217294132394521
+splice,5,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2263141709332991,0.3217294132394521
+splice,5,PAC-Bayes,"linear, bound A, prior learned (vote)",0.16474291710388247,0.26513095759907807
+splice,5,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2164750107173081,0.26513095759907807
+splice,5,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1657922350472193,0.26490906612136106
+splice,5,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21553205901173003,0.26490906612136106
+splice,6,classical,"AdaBoost (stumps, T=100)",0.05246589716684155,
+splice,6,classical,random forest (200),0.02833158447009444,
+splice,6,classical,gradient boosting (hist),0.030430220356768102,
+splice,6,classical,stacking (ours),0.04407135362014691,
+splice,6,classical,logistic regression,0.15110178384050368,
+splice,6,PAC-Bayes,"stumps, bound A (vote)",0.23294858342077648,0.2822863937745654
+splice,6,PAC-Bayes,"stumps, bound A (Gibbs)",0.23294858342077646,0.2822863937745654
+splice,6,PAC-Bayes,"stumps, bound B (vote)",0.23294858342077648,0.28228639386169874
+splice,6,PAC-Bayes,"stumps, bound B (Gibbs)",0.23294858356580778,0.28228639386169874
+splice,6,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16684155299055614,0.3296257799882702
+splice,6,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.2194042446926002,0.3296257799882702
+splice,6,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16789087093389296,0.33018501875759443
+splice,6,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.2242847406597511,0.33018501875759443
+splice,6,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1689401888772298,0.27013034107735917
+splice,6,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.21449888039470322,0.27013034107735917
+splice,6,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1689401888772298,0.2700990123613864
+splice,6,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21434894237126828,0.2700990123613864
+splice,7,classical,"AdaBoost (stumps, T=100)",0.06295907660020986,
+splice,7,classical,random forest (200),0.02938090241343127,
+splice,7,classical,gradient boosting (hist),0.02833158447009444,
+splice,7,classical,stacking (ours),0.055613850996852045,
+splice,7,classical,logistic regression,0.1626442812172088,
+splice,7,PAC-Bayes,"stumps, bound A (vote)",0.2266526757607555,0.2817105314451148
+splice,7,PAC-Bayes,"stumps, bound A (Gibbs)",0.22665267576076675,0.2817105314451148
+splice,7,PAC-Bayes,"stumps, bound B (vote)",0.2266526757607555,0.2817105314451169
+splice,7,PAC-Bayes,"stumps, bound B (Gibbs)",0.22665267576076167,0.2817105314451169
+splice,7,PAC-Bayes,"linear, bound A, prior zero (vote)",0.16054564533053514,0.32170629390221966
+splice,7,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22254480612590097,0.32170629390221966
+splice,7,PAC-Bayes,"linear, bound B, prior zero (vote)",0.161594963273872,0.3223148533669113
+splice,7,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22757752824523708,0.3223148533669113
+splice,7,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1626442812172088,0.26403427806172763
+splice,7,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2137583216374558,0.26403427806172763
+splice,7,PAC-Bayes,"linear, bound B, prior learned (vote)",0.16369359916054566,0.2640483914930233
+splice,7,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21382304855933731,0.2640483914930233
+splice,8,classical,"AdaBoost (stumps, T=100)",0.07030430220356768,
+splice,8,classical,random forest (200),0.03147953830010493,
+splice,8,classical,gradient boosting (hist),0.03462749213011543,
+splice,8,classical,stacking (ours),0.05981112277019937,
+splice,8,classical,logistic regression,0.161594963273872,
+splice,8,PAC-Bayes,"stumps, bound A (vote)",0.23504721930745015,0.2726361944630153
+splice,8,PAC-Bayes,"stumps, bound A (Gibbs)",0.2350472193074533,0.2726361944630153
+splice,8,PAC-Bayes,"stumps, bound B (vote)",0.23504721930745015,0.27263619446306364
+splice,8,PAC-Bayes,"stumps, bound B (Gibbs)",0.23504721930753308,0.27263619446306364
+splice,8,PAC-Bayes,"linear, bound A, prior zero (vote)",0.1657922350472193,0.3210783701439776
+splice,8,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.22182509599278674,0.3210783701439776
+splice,8,PAC-Bayes,"linear, bound B, prior zero (vote)",0.16684155299055614,0.3216828160375941
+splice,8,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22626846098013484,0.3216828160375941
+splice,8,PAC-Bayes,"linear, bound A, prior learned (vote)",0.15949632738719832,0.26385967107292235
+splice,8,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2134092644747146,0.26385967107292235
+splice,8,PAC-Bayes,"linear, bound B, prior learned (vote)",0.1584470094438615,0.2637199971174868
+splice,8,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.21288763500953867,0.2637199971174868
+splice,9,classical,"AdaBoost (stumps, T=100)",0.060860440713536204,
+splice,9,classical,random forest (200),0.03147953830010493,
+splice,9,classical,gradient boosting (hist),0.02833158447009444,
+splice,9,classical,stacking (ours),0.0472193074501574,
+splice,9,classical,logistic regression,0.155299055613851,
+splice,9,PAC-Bayes,"stumps, bound A (vote)",0.23399790136411333,0.273290746595437
+splice,9,PAC-Bayes,"stumps, bound A (Gibbs)",0.23399790136411378,0.273290746595437
+splice,9,PAC-Bayes,"stumps, bound B (vote)",0.23399790136411333,0.2732907465989324
+splice,9,PAC-Bayes,"stumps, bound B (Gibbs)",0.2339979013699178,0.2732907465989324
+splice,9,PAC-Bayes,"linear, bound A, prior zero (vote)",0.15739769150052466,0.3250138152207428
+splice,9,PAC-Bayes,"linear, bound A, prior zero (Gibbs)",0.21832905563921745,0.3250138152207428
+splice,9,PAC-Bayes,"linear, bound B, prior zero (vote)",0.15739769150052466,0.3255975916367239
+splice,9,PAC-Bayes,"linear, bound B, prior zero (Gibbs)",0.22354860196046616,0.3255975916367239
+splice,9,PAC-Bayes,"linear, bound A, prior learned (vote)",0.1657922350472193,0.2695542607287004
+splice,9,PAC-Bayes,"linear, bound A, prior learned (Gibbs)",0.2120547784713493,0.2695542607287004
+splice,9,PAC-Bayes,"linear, bound B, prior learned (vote)",0.16789087093389296,0.26937953939427367
+splice,9,PAC-Bayes,"linear, bound B, prior learned (Gibbs)",0.2112778968604137,0.26937953939427367

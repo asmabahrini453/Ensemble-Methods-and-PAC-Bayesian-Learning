@@ -1,0 +1,591 @@
+{
+ "q1_table": [
+  {
+   "m": 195,
+   "KL": 5,
+   "A_grid": 0.2656745826345336,
+   "A_cont": 0.2656671243453632,
+   "A_single": 0.2431847674317956,
+   "B": 0.2704096063365682,
+   "Seeger": 0.2313119404816224
+  },
+  {
+   "m": 195,
+   "KL": 50,
+   "A_grid": 0.4816954643941898,
+   "A_cont": 0.4779288444581565,
+   "A_single": 0.4686278516459558,
+   "B": 0.4800316425199348,
+   "Seeger": 0.4471807967695237
+  },
+  {
+   "m": 930,
+   "KL": 5,
+   "A_grid": 0.1762202524421634,
+   "A_cont": 0.1758598824186265,
+   "A_single": 0.1655650882118931,
+   "B": 0.1806774799932288,
+   "Seeger": 0.1552161223661989
+  },
+  {
+   "m": 930,
+   "KL": 50,
+   "A_grid": 0.2776136544468881,
+   "A_cont": 0.2730556851064553,
+   "A_single": 0.2687967096223445,
+   "B": 0.2752210151926835,
+   "Seeger": 0.2357701194104639
+  },
+  {
+   "m": 9644,
+   "KL": 5,
+   "A_grid": 0.1237254136098206,
+   "A_cont": 0.1235572742873766,
+   "A_single": 0.1203603633098219,
+   "B": 0.1262354669075576,
+   "Seeger": 0.1164724309753098
+  },
+  {
+   "m": 9644,
+   "KL": 50,
+   "A_grid": 0.1537441146102815,
+   "A_cont": 0.1537401339293619,
+   "A_single": 0.1524175659202429,
+   "B": 0.1549668677182229,
+   "Seeger": 0.1361674281292628
+  }
+ ],
+ "q1_ratio_B_over_A": {
+  "KL=1": {
+   "100000": 1.013
+  },
+  "KL=5": {
+   "100000": 1.007
+  },
+  "KL=20": {
+   "100000": 1.007
+  },
+  "KL=50": {
+   "100000": 1.002
+  }
+ },
+ "q1_A_beats_B_from_m": 132,
+ "q1_grid_price": {
+  "ln(15/delta)": 5.703782474656201,
+  "ln(1/delta)": 2.995732273553991,
+  "ln(2 sqrt(m)/delta) at m=1000": 7.142757093605005
+ },
+ "q2": {
+  "mean": {
+   "A (linear)": {
+    "bound": 0.3457,
+    "seeger": 0.3298,
+    "KL": 4.8545,
+    "neff": 2.2339,
+    "emp": 0.196,
+    "test_gibbs": 0.2266,
+    "test_vote": 0.2217
+   },
+   "B (McAllester)": {
+    "bound": 0.3472,
+    "seeger": 0.3298,
+    "KL": 4.9799,
+    "neff": 2.1944,
+    "emp": 0.1955,
+    "test_gibbs": 0.226,
+    "test_vote": 0.222
+   }
+  },
+  "frac_seeger_A_lt_B": 0.5714285714285714,
+  "frac_bound_A_lt_B": 0.7,
+  "mean_abs_diff_seeger": 0.00042187008028517534,
+  "mean_abs_diff_test_vote": 0.0003817878028404313,
+  "mean_abs_diff_KL": 0.2480574643231303,
+  "lam_counts": {
+   "128.0": 41,
+   "256.0": 29
+  },
+  "gap_seeger_minus_test_gibbs": 0.10349138706350196,
+  "gap_seeger_minus_test_vote": 0.1079881186668911,
+  "wilcoxon_seeger_p": 0.8906148124791402
+ },
+ "q2_lambda": {
+  "australian": {
+   "lam_best_bound": 256.0,
+   "lam_best_test_vote": 16.0,
+   "KL_at_lam1": 0.0057818638126223695,
+   "KL_at_lam_max": 4.945134091892946,
+   "neff_at_lam_max": 1.1,
+   "test_vote_at_lam1": 0.281159420289855,
+   "test_vote_at_lam_max": 0.1468599033816425
+  },
+  "german": {
+   "lam_best_bound": 256.0,
+   "lam_best_test_vote": 128.0,
+   "KL_at_lam1": 0.01087625934275223,
+   "KL_at_lam_max": 4.987447544973121,
+   "neff_at_lam_max": 1.200000000000118,
+   "test_vote_at_lam1": 0.3,
+   "test_vote_at_lam_max": 0.33199999999999996
+  },
+  "heart": {
+   "lam_best_bound": 128.0,
+   "lam_best_test_vote": 16.0,
+   "KL_at_lam1": 0.00713748383204676,
+   "KL_at_lam_max": 4.6554930589327155,
+   "neff_at_lam_max": 1.4,
+   "test_vote_at_lam1": 0.22345679012345676,
+   "test_vote_at_lam_max": 0.2777777777777778
+  },
+  "iono": {
+   "lam_best_bound": 128.0,
+   "lam_best_test_vote": 64.0,
+   "KL_at_lam1": 0.010178655864134401,
+   "KL_at_lam_max": 6.211601186233172,
+   "neff_at_lam_max": 1.3,
+   "test_vote_at_lam1": 0.3584905660377358,
+   "test_vote_at_lam_max": 0.19905660377358486
+  },
+  "pima": {
+   "lam_best_bound": 256.0,
+   "lam_best_test_vote": 32.0,
+   "KL_at_lam1": 0.0077361199917971,
+   "KL_at_lam_max": 4.98627092611994,
+   "neff_at_lam_max": 1.0,
+   "test_vote_at_lam1": 0.3108225108225108,
+   "test_vote_at_lam_max": 0.27359307359307355
+  },
+  "sonar": {
+   "lam_best_bound": 128.0,
+   "lam_best_test_vote": 16.0,
+   "KL_at_lam1": 0.0035822848729139397,
+   "KL_at_lam_max": 6.85026808840202,
+   "neff_at_lam_max": 1.5,
+   "test_vote_at_lam1": 0.265079365079365,
+   "test_vote_at_lam_max": 0.3063492063492063
+  },
+  "wdbc": {
+   "lam_best_bound": 128.0,
+   "lam_best_test_vote": 8.0,
+   "KL_at_lam1": 0.020672635842834082,
+   "KL_at_lam_max": 6.265840092828519,
+   "neff_at_lam_max": 1.2,
+   "test_vote_at_lam1": 0.08538011695906426,
+   "test_vote_at_lam_max": 0.0988304093567251
+  }
+ },
+ "q3": {
+  "table": [
+   {
+    "family": "linear",
+    "prior": "learned",
+    "KL": 3.3079,
+    "seeger": 0.3156,
+    "bound": 0.33,
+    "test_gibbs": 0.2119,
+    "test_vote": 0.171
+   },
+   {
+    "family": "linear",
+    "prior": "zero",
+    "KL": 9.5042,
+    "seeger": 0.3662,
+    "bound": 0.3807,
+    "test_gibbs": 0.2287,
+    "test_vote": 0.1747
+   },
+   {
+    "family": "stumps",
+    "prior": "learned",
+    "KL": 2.3104,
+    "seeger": 0.3153,
+    "bound": 0.3283,
+    "test_gibbs": 0.2254,
+    "test_vote": 0.2233
+   },
+   {
+    "family": "stumps",
+    "prior": "uniform",
+    "KL": 4.8545,
+    "seeger": 0.3298,
+    "bound": 0.3457,
+    "test_gibbs": 0.2266,
+    "test_vote": 0.2217
+   }
+  ],
+  "frac_seeger_lower_stumps": 1.0,
+  "frac_seeger_lower_linear": 1.0,
+  "frac_vote_better_linear": 0.4857142857142857,
+  "frac_vote_better_stumps": 0.08571428571428572,
+  "mean_seeger_gain_linear": 0.050522327607610495,
+  "mean_seeger_gain_stumps": 0.014506449932903896,
+  "wilcoxon_linear_p": 3.559469460061398e-13,
+  "wilcoxon_stumps_p": 3.559469460061398e-13
+ },
+ "q3_per_dataset_seeger": {
+  "australian": {
+   "linear|learned": 0.249,
+   "linear|zero": 0.299,
+   "stumps|learned": 0.219,
+   "stumps|uniform": 0.243
+  },
+  "german": {
+   "linear|learned": 0.37,
+   "linear|zero": 0.418,
+   "stumps|learned": 0.37,
+   "stumps|uniform": 0.376
+  },
+  "heart": {
+   "linear|learned": 0.343,
+   "linear|zero": 0.399,
+   "stumps|learned": 0.385,
+   "stumps|uniform": 0.399
+  },
+  "iono": {
+   "linear|learned": 0.305,
+   "linear|zero": 0.381,
+   "stumps|learned": 0.298,
+   "stumps|uniform": 0.315
+  },
+  "pima": {
+   "linear|learned": 0.354,
+   "linear|zero": 0.391,
+   "stumps|learned": 0.337,
+   "stumps|uniform": 0.35
+  },
+  "sonar": {
+   "linear|learned": 0.459,
+   "linear|zero": 0.503,
+   "stumps|learned": 0.442,
+   "stumps|uniform": 0.454
+  },
+  "wdbc": {
+   "linear|learned": 0.13,
+   "linear|zero": 0.173,
+   "stumps|learned": 0.156,
+   "stumps|uniform": 0.171
+  }
+ },
+ "q4": {
+  "stumps: Dirac on best stump": {
+   "emp": 0.1935,
+   "KL": 5.705,
+   "neff": 1.0,
+   "seeger": 0.3321,
+   "test_gibbs": 0.2269,
+   "test_vote": 0.2269
+  },
+  "stumps: uniform on 5 best": {
+   "emp": 0.2239,
+   "KL": 4.0956,
+   "neff": 5.0,
+   "seeger": 0.3565,
+   "test_gibbs": 0.2453,
+   "test_vote": 0.2154
+  },
+  "stumps: uniform on 20 best": {
+   "emp": 0.2691,
+   "KL": 2.7093,
+   "neff": 20.0,
+   "seeger": 0.3969,
+   "test_gibbs": 0.284,
+   "test_vote": 0.2416
+  },
+  "stumps: uniform on 100 best": {
+   "emp": 0.365,
+   "KL": 1.0999,
+   "neff": 100.0,
+   "seeger": 0.4856,
+   "test_gibbs": 0.3752,
+   "test_vote": 0.2828
+  },
+  "stumps: uniform on all": {
+   "emp": 0.5,
+   "KL": 0.0,
+   "neff": 427.7143,
+   "seeger": 0.6115,
+   "test_gibbs": 0.5,
+   "test_vote": NaN
+  },
+  "stumps: bound A": {
+   "emp": 0.196,
+   "KL": 4.8545,
+   "neff": 2.2339,
+   "seeger": 0.3298,
+   "test_gibbs": 0.2266,
+   "test_vote": 0.2217
+  },
+  "stumps: bound B": {
+   "emp": 0.1955,
+   "KL": 4.9799,
+   "neff": 2.1944,
+   "seeger": 0.3298,
+   "test_gibbs": 0.226,
+   "test_vote": 0.222
+  },
+  "linear: bound A": {
+   "emp": 0.2071,
+   "KL": 9.5042,
+   "neff": NaN,
+   "seeger": 0.3662,
+   "test_gibbs": 0.2287,
+   "test_vote": 0.1747
+  },
+  "linear: bound B": {
+   "emp": 0.2073,
+   "KL": 9.4742,
+   "neff": NaN,
+   "seeger": 0.3661,
+   "test_gibbs": 0.2286,
+   "test_vote": 0.1742
+  }
+ },
+ "q4_per_dataset": {
+  "australian": {
+   "seeger|linear: bound A": 0.299,
+   "seeger|stumps: bound A": 0.243,
+   "test_vote|linear: bound A": 0.14,
+   "test_vote|stumps: bound A": 0.147,
+   "test_gibbs|linear: bound A": 0.18,
+   "test_gibbs|stumps: bound A": 0.147
+  },
+  "german": {
+   "seeger|linear: bound A": 0.418,
+   "seeger|stumps: bound A": 0.376,
+   "test_vote|linear: bound A": 0.249,
+   "test_vote|stumps: bound A": 0.301,
+   "test_gibbs|linear: bound A": 0.308,
+   "test_gibbs|stumps: bound A": 0.307
+  },
+  "heart": {
+   "seeger|linear: bound A": 0.399,
+   "seeger|stumps: bound A": 0.399,
+   "test_vote|linear: bound A": 0.153,
+   "test_vote|stumps: bound A": 0.272,
+   "test_gibbs|linear: bound A": 0.222,
+   "test_gibbs|stumps: bound A": 0.277
+  },
+  "iono": {
+   "seeger|linear: bound A": 0.381,
+   "seeger|stumps: bound A": 0.315,
+   "test_vote|linear: bound A": 0.137,
+   "test_vote|stumps: bound A": 0.175,
+   "test_gibbs|linear: bound A": 0.216,
+   "test_gibbs|stumps: bound A": 0.187
+  },
+  "pima": {
+   "seeger|linear: bound A": 0.391,
+   "seeger|stumps: bound A": 0.35,
+   "test_vote|linear: bound A": 0.244,
+   "test_vote|stumps: bound A": 0.274,
+   "test_gibbs|linear: bound A": 0.28,
+   "test_gibbs|stumps: bound A": 0.273
+  },
+  "sonar": {
+   "seeger|linear: bound A": 0.503,
+   "seeger|stumps: bound A": 0.454,
+   "test_vote|linear: bound A": 0.265,
+   "test_vote|stumps: bound A": 0.29,
+   "test_gibbs|linear: bound A": 0.318,
+   "test_gibbs|stumps: bound A": 0.295
+  },
+  "wdbc": {
+   "seeger|linear: bound A": 0.173,
+   "seeger|stumps: bound A": 0.171,
+   "test_vote|linear: bound A": 0.035,
+   "test_vote|stumps: bound A": 0.093,
+   "test_gibbs|linear: bound A": 0.077,
+   "test_gibbs|stumps: bound A": 0.102
+  }
+ },
+ "q4_linear_better_vote_datasets": 7,
+ "q4_linear_lower_seeger_datasets": 1,
+ "q5": {
+  "mean_test_err": {
+   "AdaBoost": 0.1359,
+   "RF": 0.1232,
+   "HGB": 0.1315,
+   "stacking": 0.1243,
+   "log. reg.": 0.1458,
+   "PB stumps A": 0.2124,
+   "PB lin. A, $\\mathcal{N}(0,I)$": 0.1504,
+   "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.1478,
+   "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.1478
+  },
+  "mean_rank": {
+   "AdaBoost": 5.62,
+   "RF": 3.25,
+   "HGB": 5.25,
+   "stacking": 2.38,
+   "log. reg.": 3.56,
+   "PB stumps A": 8.88,
+   "PB lin. A, $\\mathcal{N}(0,I)$": 6.38,
+   "PB lin. A, $\\mathcal{N}(w_0,I)$": 4.94,
+   "PB lin. B, $\\mathcal{N}(w_0,I)$": 4.75
+  },
+  "mean_certificate": {
+   "PB stumps A": 0.2986,
+   "PB lin. A, $\\mathcal{N}(0,I)$": 0.322,
+   "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.2707,
+   "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.2702
+  },
+  "per_dataset": {
+   "australian": {
+    "AdaBoost": 0.143,
+    "RF": 0.133,
+    "HGB": 0.148,
+    "stacking": 0.135,
+    "log. reg.": 0.139,
+    "PB stumps A": 0.147,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.14,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.139,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.139
+   },
+   "german": {
+    "AdaBoost": 0.249,
+    "RF": 0.243,
+    "HGB": 0.243,
+    "stacking": 0.242,
+    "log. reg.": 0.239,
+    "PB stumps A": 0.301,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.249,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.248,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.246
+   },
+   "heart": {
+    "AdaBoost": 0.199,
+    "RF": 0.173,
+    "HGB": 0.2,
+    "stacking": 0.165,
+    "log. reg.": 0.168,
+    "PB stumps A": 0.272,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.153,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.147,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.151
+   },
+   "iono": {
+    "AdaBoost": 0.081,
+    "RF": 0.068,
+    "HGB": 0.087,
+    "stacking": 0.07,
+    "log. reg.": 0.117,
+    "PB stumps A": 0.175,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.137,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.126,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.126
+   },
+   "pima": {
+    "AdaBoost": 0.252,
+    "RF": 0.24,
+    "HGB": 0.256,
+    "stacking": 0.239,
+    "log. reg.": 0.239,
+    "PB stumps A": 0.274,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.244,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.245,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.243
+   },
+   "spambase": {
+    "AdaBoost": 0.064,
+    "RF": 0.05,
+    "HGB": 0.046,
+    "stacking": 0.063,
+    "log. reg.": 0.079,
+    "PB stumps A": 0.211,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.083,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.082,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.082
+   },
+   "splice": {
+    "AdaBoost": 0.061,
+    "RF": 0.03,
+    "HGB": 0.029,
+    "stacking": 0.049,
+    "log. reg.": 0.155,
+    "PB stumps A": 0.227,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.162,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.161,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.161
+   },
+   "wdbc": {
+    "AdaBoost": 0.038,
+    "RF": 0.05,
+    "HGB": 0.043,
+    "stacking": 0.03,
+    "log. reg.": 0.03,
+    "PB stumps A": 0.093,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.035,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.035,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.034
+   }
+  },
+  "cert_per_dataset": {
+   "australian": {
+    "PB stumps A": 0.243,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.299,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.249,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.247
+   },
+   "german": {
+    "PB stumps A": 0.376,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.418,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.37,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.37
+   },
+   "heart": {
+    "PB stumps A": 0.399,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.399,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.343,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.343
+   },
+   "iono": {
+    "PB stumps A": 0.315,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.381,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.305,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.306
+   },
+   "pima": {
+    "PB stumps A": 0.35,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.391,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.354,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.353
+   },
+   "spambase": {
+    "PB stumps A": 0.253,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.191,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.149,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.148
+   },
+   "splice": {
+    "PB stumps A": 0.281,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.324,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.266,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.266
+   },
+   "wdbc": {
+    "PB stumps A": 0.171,
+    "PB lin. A, $\\mathcal{N}(0,I)$": 0.173,
+    "PB lin. A, $\\mathcal{N}(w_0,I)$": 0.13,
+    "PB lin. B, $\\mathcal{N}(w_0,I)$": 0.128
+   }
+  },
+  "mean_certificate_minus_test": {
+   "linear, bound A, prior learned (Gibbs)": 0.082,
+   "linear, bound A, prior learned (vote)": 0.123,
+   "linear, bound A, prior zero (Gibbs)": 0.119,
+   "linear, bound A, prior zero (vote)": 0.172,
+   "linear, bound B, prior learned (Gibbs)": 0.082,
+   "linear, bound B, prior learned (vote)": 0.122,
+   "linear, bound B, prior zero (Gibbs)": 0.119,
+   "linear, bound B, prior zero (vote)": 0.172,
+   "stumps, bound A (Gibbs)": 0.082,
+   "stumps, bound A (vote)": 0.086,
+   "stumps, bound B (Gibbs)": 0.083,
+   "stumps, bound B (vote)": 0.086
+  },
+  "wilcoxon_rf_vs_pb_lin_learned_p": 0.0001506538229684777,
+  "frac_rf_better_than_pb_lin_learned": 0.5875,
+  "frac_logreg_better_than_pb_lin_learned": 0.575,
+  "frac_adaboost_better_than_pb_stumps": 0.875
+ }
+}

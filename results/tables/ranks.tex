@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccccc}
+\toprule
+ & \shortstack{error\\all ($N=21$)} & \shortstack{error\\imb. ($N=6$)} & \shortstack{bal.\ acc.\\all ($N=21$)} & \shortstack{bal.\ acc.\\imb. ($N=6$)} & \shortstack{F1 min.\\all ($N=21$)} & \shortstack{F1 min.\\imb. ($N=6$)} & \shortstack{AUC\\all ($N=21$)} & \shortstack{AUC\\imb. ($N=6$)} \\
+\midrule
+tree & 9.19 & 8.83 & 8.29 & 6.17 & 8.48 & 6.83 & 9.86 & 10.00 \\
+log. reg. & 5.90 & 7.33 & 6.55 & 8.50 & 6.57 & 8.33 & 5.83 & 6.83 \\
+7-NN & 7.60 & 6.33 & 7.62 & 6.17 & 7.43 & 5.33 & 7.71 & 7.67 \\
+bagging & 5.93 & 6.00 & 5.43 & 5.17 & 5.67 & 5.33 & 6.24 & 6.33 \\
+AdaBoost (stumps) & 5.02 & 5.50 & 5.10 & 6.67 & 5.10 & 6.67 & 5.24 & 5.83 \\
+AdaBoost (depth 3) & 4.79 & 4.00 & 4.52 & 3.50 & 4.57 & 4.33 & 4.62 & 4.33 \\
+stacking & 3.40 & 3.67 & 4.21 & 5.33 & 4.14 & 4.83 & 3.17 & 3.50 \\
+random forest & 3.57 & 4.33 & 4.29 & 5.83 & 4.19 & 5.50 & 3.29 & 3.00 \\
+grad. boosting & 5.40 & 5.33 & 5.10 & 5.00 & 5.10 & 5.17 & 5.24 & 4.67 \\
+hist. grad. boosting & 4.19 & 3.67 & 3.90 & 2.67 & 3.76 & 2.67 & 3.81 & 2.83 \\
+Friedman $p$ & 8e-11 & 5e-02 & 5e-07 & 8e-02 & 1e-07 & 1e-01 & 3e-15 & 3e-04 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,10 @@
+\begin{tabular}{llrrrrr}
+\toprule
+family & prior & KL & Seeger & value of bound A & test Gibbs & test vote \\
+\midrule
+linear (Gaussian) & $\mathcal{N}(w_0,I)$ & 3.308 & 0.316 & 0.330 & 0.212 & 0.171 \\
+linear (Gaussian) & $\mathcal{N}(0,I)$ & 9.504 & 0.366 & 0.381 & 0.229 & 0.175 \\
+stumps (categorical) & learned $P$ & 2.310 & 0.315 & 0.328 & 0.225 & 0.223 \\
+stumps (categorical) & uniform $P$ & 4.855 & 0.330 & 0.346 & 0.227 & 0.222 \\
+\bottomrule
+\end{tabular}

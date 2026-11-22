@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+posterior & $\widehat R_S(G_Q)$ & KL & $n_{\rm eff}$ & Seeger & test Gibbs & test vote \\
+\midrule
+stumps: Dirac on best stump & 0.193 & 5.705 & 1.0 & 0.332 & 0.227 & 0.227 \\
+stumps: uniform on 5 best & 0.224 & 4.096 & 5.0 & 0.357 & 0.245 & 0.215 \\
+stumps: uniform on 20 best & 0.269 & 2.709 & 20.0 & 0.397 & 0.284 & 0.242 \\
+stumps: uniform on 100 best & 0.365 & 1.100 & 100.0 & 0.486 & 0.375 & 0.283 \\
+stumps: uniform on all & 0.500 & 0.000 & 427.7 & 0.611 & 0.500 & -- \\
+stumps: bound A & 0.196 & 4.855 & 2.2 & 0.330 & 0.227 & 0.222 \\
+stumps: bound B & 0.195 & 4.980 & 2.2 & 0.330 & 0.226 & 0.222 \\
+linear: bound A & 0.207 & 9.504 & -- & 0.366 & 0.229 & 0.175 \\
+linear: bound B & 0.207 & 9.474 & -- & 0.366 & 0.229 & 0.174 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,21 @@
+\begin{tabular}{llcccccc}
+\toprule
+problem & noise & tree & bagging & AdaBoost (stumps) & AdaBoost (depth 3) & random forest & grad. boosting \\
+\midrule
+additive & 0\% & 0.128 & 0.094 & \textbf{0.060} & 0.075 & 0.086 & 0.081 \\
+additive & 10\% & 0.213 & 0.111 & 0.141 & 0.151 & \textbf{0.099} & 0.117 \\
+additive & 20\% & 0.280 & 0.153 & 0.183 & 0.219 & \textbf{0.142} & 0.170 \\
+checkerboard & 0\% & 0.229 & 0.112 & 0.507 & \textbf{0.078} & 0.196 & 0.286 \\
+checkerboard & 10\% & 0.416 & \textbf{0.236} & 0.502 & 0.298 & 0.284 & 0.367 \\
+checkerboard & 20\% & 0.401 & \textbf{0.336} & 0.507 & 0.359 & 0.351 & 0.405 \\
+ringnorm & 0\% & 0.207 & 0.082 & \textbf{0.056} & \textbf{0.056} & 0.057 & 0.064 \\
+ringnorm & 10\% & 0.260 & 0.087 & 0.100 & 0.111 & \textbf{0.060} & 0.088 \\
+ringnorm & 20\% & 0.306 & 0.105 & 0.133 & 0.169 & \textbf{0.075} & 0.121 \\
+threenorm & 0\% & 0.320 & 0.177 & 0.191 & 0.168 & \textbf{0.155} & 0.173 \\
+threenorm & 10\% & 0.339 & 0.190 & 0.223 & 0.211 & \textbf{0.172} & 0.206 \\
+threenorm & 20\% & 0.379 & 0.219 & 0.267 & 0.272 & \textbf{0.198} & 0.240 \\
+twonorm & 0\% & 0.201 & 0.048 & 0.042 & \textbf{0.036} & \textbf{0.035} & 0.047 \\
+twonorm & 10\% & 0.245 & 0.059 & 0.107 & 0.088 & \textbf{0.044} & 0.079 \\
+twonorm & 20\% & 0.285 & 0.078 & 0.152 & 0.155 & \textbf{0.054} & 0.110 \\
+\bottomrule
+\end{tabular}
